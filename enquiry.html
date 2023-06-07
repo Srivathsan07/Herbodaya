@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Herbodaya</title>
+</head>
+<body class="herbodaya">
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+ <!-- enquiry modal -->
+ <div class="modal fade eaque" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content settting-icon">
+       
+          <div class="modal-inner">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+        <div class="modal-body">
+            <div class="info-input">
+                <div class="personal-name info-input">
+                    <label class="font-20" for="name">Name*</label>
+                    <input type="text" class="font-18"id="name" placeholder="John William"/>
+                </div>
+                <div class="personal-last info-input">
+                    <label class="font-20" for="last-name">Email Id*</label>
+                    <input type="text" class="font-18"id="last-name" placeholder="Example@gmail.com"/>
+                </div>
+                <div class=" info-input">
+                    <label class="font-20" for="ph-number">Mobile Number*</label>
+                    <input type="text" class="font-18"id="ph-number" placeholder="9090909090"/>
+                </div>
+                <div class="personal-last info-input">
+                    <label class="font-20" for="skin">Category*</label>
+                    <select name="skin" id="skin">
+                        <option value="">Skin</option>
+                        <option value="">Skin</option>
+                        <option value="">Skin</option>
+                        <option value="">Skin</option>
+                    </select>
+                </div>
+                <div class="personal-last info-input">
+                    <label class="font-20" for="lname">Description</label>
+                    <textarea  class="font-18"id="lname" placeholder="Type Here..." name=""  cols="30" rows="10"></textarea>
+                </div>
+               </div>
+               <div class="signup-button">
+                <a type="button" class="btn font-20"data-bs-dismiss="modal">Submit</a>
+            </div>
+        </div>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+    <script src="./asset/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   
+   <script src="./js/custom.js"></script>
+   
+   
+
+</body>
+</html>

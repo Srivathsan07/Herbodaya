@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/variables.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <title>Herbodaya</title>
+</head>
+
+<body class="herbodaya">
+
+   <!-- scroll-top -->
+   <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./asset/images/scroll-to-top.png" alt=""></button>
+   
+  <header class="header">
+
+    <div class="header-offer">
+      <p class="offer-para font-20">Get 30% Off on skin products for first purchase</p>
+    </div>
+
+    <div class="header-content">
+      <div class="container device-container">
+        <div class="header-content-items">
+          <div class="logo">
+            <img src="./asset/images/herbodaya-logo.png" alt="herbodaya-logo">
+          </div>
+          <div class="search main desktop">
+            <div class="input-group">
+              <select name="" class="categories">
+                <option value="">All categories</option>
+              </select>
+              <input type="text" class="form-control categories-input" placeholder="What are you looking for?">
+              <div class="input-group-append">
+                <button class="btn btn-secondary bg-search" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu desktop">
+            <div class="d-flex align-items-center menu-content-l">
+              <a href="./Herbodaya-my-wishlist.html"><img class="menu-img"
+                src="./asset/images/wishlist.png" alt="whislist"></a>
+              <p><a href="./Herbodaya-my-wishlist.html">Wishlist</a> </p>
+            </div>
+            <div class="d-flex align-items-center menu-content-r"><a href="./add-to-cart.html">
+              <img class="menu-img" src="./asset/images/cart.png"
+                alt="cart"></a>
+              <p><a href="./add-to-cart.html">Cart</a> </p>
+            </div>
+            <div class="profile-total" >
+              <div class="profile-name">
+                  <p class="font-14">Welcome!!</p>
+                  <h3 class="font-18">John Willaim</h3>
+              </div>
+              <div class="profile-icon">
+                  <img src="./asset/images/john.png" alt="profile">
+              </div>
+              <div class="modal-dialog profile-poopup">
+                  <div class="profile-poop-main">
+                    <p class="profil-para">My Profile</p>
+                    <p class="profil-para profile-active">My Orders</p>
+                    <p class="profil-para">Sign Out</p>
+                  </div>
+                </div>
+
+          </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="header-menu">
+
+      <div class="hamburger" id="hamburger-11">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+      <div class="menu mobile">
+        <div class="d-flex align-items-center menu-content-l">
+          <a href="./Herbodaya-my-wishlist.html">
+            <img class="menu-img" src="./asset/images/wishlist.png" alt="whislist">
+          </a>
+          </div>
+        <div class="d-flex align-items-center menu-content-r"><a href="./add-to-cart.html">
+          <img class="menu-img" src="./asset/images/cart.png"
+            alt="cart"></a></div>
+      </div>
+
+      <div class="search main mobile">
+        <div class="input-group">
+          <select name="" class="categories">
+            <option value="">All categories</option>
+          </select>
+          <input type="text" class="form-control categories-input" placeholder="What are you looking for?">
+          <div class="input-group-append">
+            <button class="btn btn-secondary bg-search" type="button">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <ul class="menu-items">
+        <div class="hamburger is-active" id="hamburger-11">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <li><a href="./Home.html">HOME</a></li>
+        <li><a href="./product-page-v5.html">PRODUCTS</a></li>
+        <li><a href="#">TESTIMONIALS</a></li>
+        <li class="active"><a href="./aboutus.html">ABOUT US</a></li>
+        <li><a href="#">ENQUIRY</a></li>
+        <li><a href="./contactus.html">CONTACT US</a></li>
+      </ul>
+    </div>
+
+    <div class="search main mobile-sm">
+      <div class="input-group">
+        <select name="" class="categories">
+          <option value="">All categories</option>
+        </select>
+        <input type="text" class="form-control categories-input" placeholder="What are you looking for?">
+        <div class="input-group-append">
+          <button class="btn btn-secondary bg-search" type="button">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- menu -->
+
+  </header>
+  <div class="enquiry font-20" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Enquiry <img
+      src="./asset/images/enquiry.png" alt=""></div>
+  <div class="about-us-page">
+    <section class="breadcrumb-main">
+      <div class="container">
+        <ul class="sub-breadcrumb">
+          <li><a class="font-16" href="#"><span></span>Home</a></li>
+          <li> <a class="font-16" href="#"><span></span>About Us</a></li>
+        </ul>
+      </div>
+    </section>
+
+
+    <div class="container">
+      <h1 class="font-42 header-title">About Us</h1>
+      <h2 class="health-science font-30 text-center product-item-contents">A Health Science Tradition Three Thousand Years Old </h2>
+      <div class="row about-ayurvedha justify-content-center">
+        <div class="ayur-sub row">
+          <div class="col-lg-6">
+            <div class="health-img">
+              <img src="./asset/images/ayurveda.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex">
+            <div class="health-para-div">
+              <h3 class="font-36 product-item-contents">Ayurveda</h3>
+              <p class="font-20">It is a natural healing system of India that evolved into a distinct medical
+                science around 100 BCE.it has been enriched with contributions from sages like Charaka Susrutha
+                and Vegbhatta.The object of Ayurveda is to counteract the imbalance of Tridoshas (Vata, Pitta,
+                kalpha) the three vital elements that control the functioning of the human body.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="ayur-sub row">
+          <div class="col-lg-6">
+            <div class="health-img">
+              <img src="./asset/images/siddha.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex">
+            <div class="health-para-div">
+              <h3 class="font-36 product-item-contents">Siddha</h3>
+              <p class="font-20">Siddha is a holistic system of medicine in south India founded by 18 siddhars. who were
+                a spiritually enlightened person the system comprises codified procedures for medicine manufacturing
+                disease diagnosis bu Mukuutram (Thridhosa theraphy) Nadi (Pulse reading)_and Attavitha paritchai(8 types
+                of testing) it uses a special group of herbs called kayakalpa (Rejuvenation) herbs for treatment and
+                preventive aspects.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="ayur-sub row">
+          <div class="col-lg-6">
+            <div class="health-img">
+              <img src="./asset/images/unani.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex">
+            <div class="health-para-div">
+              <h3 class="font-36 product-item-contents">Unani</h3>
+              <p class="font-20">Unani is a form of traditional medicine of Gracaeo-Arabic origin based on the teaching
+                of greek physician Hippocrates and Roman Physician Galen and developed into an elaborate medical system
+                by Arab and Persian Physicians
+              </p>
+              <p class="font-20">Unani medicine is based the concept of the four humours: Phlegm(Balgham), Blood (Dam)
+                Yellow bile (Safra) and Black Bile(Sauda)</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="manifa-head">
+      <div class="container">
+        <h1 class="font-42 header-title manufacturing-head">Manufacturing Infrastructure</h1>
+        <div class="manifa">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="manife-img">
+                <img src="./asset/images/home.png" alt="home image">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <p class="font-20">The SKM factory has an installed production capacity of 1200 tonnes per annum. It has
+                approval as per Drugs and Cosmetics Act 1940 for 700 products including Shastric and Proprietary
+                Medicines. The factory has received the Good Manufacturing Practices Certification (GMP) in 2002 and is
+                the first factory in TamilNadu to get this certification. It has also been certified with ISO 9001 :
+                2000 for successful implementation of Quality Management Systems. It has also got Pharmexcil
+                registration for export.
+              </p>
+              <p class="font-20">
+                The medicines are prepared in a clean environment by adopting highest degree of plant and personal
+                hygiene to ensure safety and efficiency of the products. All GMP guidelines such as Standard Operating
+                Procedures, Batch Manufacturing Records, In-Process Controls and In-House Standards are stringently
+                followed to ensure the highest quality. The quality management plan starts from the selection of the
+                vendors, creating SOP's (Standard Operating Procedures) for testing of raw material, intermediate
+                product and finished products, and the calibration of the instruments and manufacturing equipment. The
+                Quality Control and Quality Assurance Lab work in perfect co-ordination with the Production Department
+                at each and every step of the process to maintain international standards of manufacturing.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="ancient">
+      <h3 class="ancient-head font-42">Ancient Medicine</h3>
+      <p class="ancient-para font-30"> <span>"Destruction of body leads to destruction of </span>
+        <span>soul Attainment of salvation then becomes impossible Learning the process of body</span>
+        <span>care Helps to preserve my body and thereby my soul."</span>
+      </p>
+      <h6 class="ancient-end font-30">-Saint Thirumoolar</h6>
+    </div>
+    <div class="container">
+      <div class="qu-policy row">
+        <div class="ayur-sub row">
+          <div class="col-lg-6">
+            <div class="quality-img"><img src="./asset/images/quality-policy.png" alt=""></div>
+          </div>
+          <div class="col-lg-6 d-flex  align-items-center">
+            <div class="qulity-para ">
+              <h1 class="font-36 qul-head">Quality Policy</h1>
+              <p class="quali-para-sub font-20">We are committed to providing safe, effective and enticing Siddha,
+                Ayurveda, Unani medicines and herbal products.</p>
+              <p class="quality-para-sub font-20">We strive to achieve total customer satisfaction and all relevant
+                statutory & regulatory requirements by continuously improving the quality management systems, process
+                and products through:</p>
+              <ul>
+                <li class="font-20 qul-list">Integrating traditional and contemporary methods.</li>
+                <li class="font-20 qul-list">Providing high therapeutic and prophylactic products.</li>
+                <li class="font-20 qul-list">Promoting team work through total involvement of employees.</li>
+                <li class="font-20 qul-list">Creating awareness amongst our interested parties and ensuring
+                  availability of resources for achieving business strategy.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="ayur-sub row">
+
+          <div class="col-lg-6">
+            <div class="quality-img">
+              <img src="./asset/images/vision.png" alt="vision image here">
+            </div>
+
+          </div>
+          <div class="col-lg-6 d-flex  align-items-center">
+            <div class="qulity-para qulity-para-two">
+              <h3 class="font-36">Our Vision</h3>
+              <p class="font-20">Committed to prevention and cure of diseases safely through herbal formulations and
+                there by building a healthy society.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="iso">
+      <div class="container">
+        <h1 class="font-42 header-title iso-head">ISO & GMP Certification</h1>
+        <p class="text-center font-30 iso-para"><span></span>We are certified with ISO 9001:2015, which is the latest
+          dimension of quality for our services. It demonstrates our ability to </span> <span>consistently provide
+            products and services that meet the customer requirements along with the </span>
+          <span>regulatory requirements.</span>
+        </p>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+
+            <div class="certi-img " data-bs-toggle="modal" data-bs-target="#certificate">
+
+              <img src="./asset/images/certificate-1.png" alt="">
+              <div class="certi-img-hvr"></div>
+
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="certi-img" data-bs-toggle="modal" data-bs-target="#certificate">
+              <img src="./asset/images/certficate-2.png" alt="">
+              <div class="certi-img-hvr"></div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="certi-img" data-bs-toggle="modal" data-bs-target="#certificate">
+              <img src="./asset/images/certificate-3.png" alt="">
+              <div class="certi-img-hvr"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="footer-address">
+              <img class="footer-logo" src="./asset/images/herbodaya-logo.png" alt="herbodaya">
+              <p class="skm font-24">SKM SIDDHA AND AYURVEDA
+                COMPANY(INDIA)Pvt.Ltd,</p>
+              <p class="font-20">Saminathapuram (PO),</p>
+              <p class="font-20">Modakkurichi, Erode</p>
+              <p class="font-20">Tamil Nadu-638104</p>
+            </div>
+          </div>
+          <div class="quick-links col-xl-3 col-lg-3 col-md-6 col-sm-6 ">
+            <ul>
+              <p class="footer-headings font-22">Quick Links:</p>
+              <li><a href="#" class="font-18">My Account</a></li>
+              <li><a href="#" class="font-18">My Products</a></li>
+              <li><a href="./herbodaya-blogs-v2.html" class="font-18">Blog</a></li>
+              <li><a href="#" class="font-18">Terms and Conditions</a></li>
+              <li><a href="#" class="font-18">Privacy Policy</a></li>
+              <li><a href="#" class="font-18">Refund Policy</a></li>
+            </ul>
+          </div>
+          <div class="recent-posts col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            <ul>
+              <p class="footer-headings font-22">Recent Posts:</p>
+              <li><a href="#" class="font-18">Rose Water for Skin</a> </li>
+              <li><a href="#" class="font-18">Triphala Uses</a></li>
+              <li><a href="#" class="font-18">Neem Oil User For Hair</a> </li>
+              <li><a href="#" class="font-18">Benefits Of Turmeric For Skin</a></li>
+              <li><a href="#" class="font-18">Benefits of Aloe Vera</a></li>
+            </ul>
+          </div>
+
+
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="footer-contact">
+              <p class="footer-headings font-22">Contact Us:</p>
+
+            <div class="footer-link-content">
+              <p class="skm font-18">Customer Support :</p>
+              <p class="font-18"> +91 9626533378 | 0424 – 2500590</p>
+            </div>
+
+            <div class="footer-link-content">
+              <p class="skm font-18">Sales & Marketing</p>
+              <p class="font-18"> +91 9962713555 | +91 9994910539</p>
+            </div>
+
+            <div class="footer-link-content">
+              <p class="skm font-18">E-mail:</p>
+              <p class="font-18"> helpdesk@herbodaya.com</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="copyright-content">
+          <div>
+            <p class="font-16">Copyright © 2022 Herbodaya. All Rights Reserved</p>
+          </div>
+          <div>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal fade" id="certificate" tabindex="-1" aria-labelledby="certificateLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="certificate-close">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <img src="./asset/images/certificate-popup.png" alt="">
+
+      </div>
+    </div>
+  </div>
+ <!-- enquiry modal -->
+ <div class="modal fade eaque" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content settting-icon">
+     
+        <div class="modal-inner">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+      <div class="modal-body">
+          <div class="info-input">
+              <div class="personal-name info-input">
+                  <label class="font-20" for="name">Name*</label>
+                  <input type="text" class="font-18"id="name" placeholder="John William"/>
+              </div>
+              <div class="personal-last info-input">
+                  <label class="font-20" for="last-name">Email Id*</label>
+                  <input type="text" class="font-18"id="last-name" placeholder="Example@gmail.com"/>
+              </div>
+              <div class=" info-input">
+                  <label class="font-20" for="ph-number">Mobile Number*</label>
+                  <input type="text" class="font-18"id="ph-number" placeholder="9090909090"/>
+              </div>
+              <div class="personal-last info-input">
+                  <label class="font-20" for="skin">Category*</label>
+                  <select name="skin" id="skin">
+                      <option value="">Skin</option>
+                      <option value="">Skin</option>
+                      <option value="">Skin</option>
+                      <option value="">Skin</option>
+                  </select>
+              </div>
+              <div class="personal-last info-input">
+                  <label class="font-20" for="lname">Description</label>
+                  <textarea  class="font-18"id="lname" placeholder="Type Here..." name=""  cols="30" rows="10"></textarea>
+              </div>
+             </div>
+             <div class="signup-button">
+              <button class="font-20"data-bs-dismiss="modal">Submit</button>
+          </div>
+      </div>
+        </div>
+      
+    </div>
+  </div>
+</div>
+  <div class="profile-background show-profile-back"></div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./js/custom.js"></script>
+  <script src="./asset/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+
+</body>
+
+</html>

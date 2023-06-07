@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <title>Herbodaya</title>
+</head>
+
+<body class="herbodaya">
+     <!-- scroll-top -->
+     <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./asset/images/scroll-to-top.png" alt=""></button>
+     
+<div>
+    <header class="header">
+
+        <div class="header-offer">
+          <p class="offer-para font-20">Get 30% Off on skin products for first purchase</p>
+        </div>
+  
+        <div class="header-content">
+          <div class="container device-container">
+            <div class="header-content-items">
+              <div class="logo">
+                <img src="./asset/images/herbodaya-logo.png" alt="herbodaya-logo">
+              </div>
+              <div class="search main desktop">
+                <div class="input-group">
+                    <select name="" class="categories">
+                      <option value="">All categories</option>
+                    </select>
+                    <input type="text" class="form-control categories-input" placeholder="What are you looking for?">
+                    <div class="input-group-append">
+                      <button class="btn btn-secondary bg-search" type="button">
+                        <i class="fa fa-search"></i>
+                      </button>
+                    </div>
+                  </div>
+              </div>
+  
+              <div class="menu desktop">
+                <div class="d-flex align-items-center menu-content-l">
+                    <a href="./Herbodaya-my-wishlist.html">
+                        <img class="menu-img"
+                    src="./asset/images/wishlist.png" alt="whislist"></a>
+                  <p><a href="./Herbodaya-my-wishlist.html">Wishlist</a> </p>
+                </div>
+                <div class="d-flex align-items-center menu-content-r"><a href="./add-to-cart.html">
+                    <img class="menu-img" src="./asset/images/cart.png"
+                      alt="cart"></a>
+                  <p><a href="./add-to-cart.html">Cart</a> </p>
+                </div>
+                <div class="profile-total" >
+                    <div class="profile-name">
+                        <p class="font-14">Welcome!!</p>
+                        <h3 class="font-18">John Willaim</h3>
+                    </div>
+                    <div class="profile-icon">
+                        <img src="./asset/images/john.png" alt="profile">
+                    </div>
+                    <div class="modal-dialog profile-poopup">
+                        <div class="profile-poop-main">
+                        <a href="myprofile.html"><p class="profil-para">My Profile</p></a>
+                        <a href="orders.html"> <p class="profil-para profile-active">My Orders</p></a>  
+                          <p class="profil-para">Sign Out</p>
+                        </div>
+                      </div>
+                     
+                </div>
+            
+              </div>
+              
+            </div>
+          </div>
+        </div>
+  
+        <div class="header-menu">
+  
+          <div class="hamburger" id="hamburger-11">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+          <div class="menu mobile">
+            <div class="d-flex align-items-center menu-content-l">
+                <a href="./Herbodaya-my-wishlist.html">
+                    <img class="menu-img" src="./asset/images/wishlist.png"
+                alt="whislist"></a></div>
+            <div class="d-flex align-items-center menu-content-r"><a href="./add-to-cart.html">
+                <img class="menu-img" src="./asset/images/cart.png"
+                  alt="cart"></a></div>
+          </div>
+  
+          <div class="search main mobile">
+            <div class="input-group">
+                <select name="" class="categories">
+                  <option value="">All categories</option>
+                </select>
+                <input type="text" class="form-control categories-input" placeholder="What are you looking for?">
+                <div class="input-group-append">
+                  <button class="btn btn-secondary bg-search" type="button">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </div>
+              </div>
+          </div>
+          <ul class="menu-items">
+            <div class="hamburger is-active" id="hamburger-11">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+                      <li><a href="./Home.html">HOME</a></li>
+
+            <li><a href="./product-page-v5.html">PRODUCTS</a></li>
+            <li><a href="#">TESTIMONIALS</a></li>
+            <li><a href="./aboutus.html">ABOUT US</a></li>
+            <li><a href="#">ENQUIRY</a></li>
+            <li><a href="./contactus.html">CONTACT US</a></li>
+          </ul>
+        </div>
+  
+        <div class="search main mobile-sm">
+            <div class="input-group">
+                <select name="" class="categories">
+                  <option value="">All categories</option>
+                </select>
+                <input type="text" class="form-control categories-input" placeholder="What are you looking for?">
+                <div class="input-group-append">
+                  <button class="btn btn-secondary bg-search" type="button">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </div>
+              </div>
+        </div>
+        <!-- menu -->
+  
+      </header>
+      
+      <div class="enquiry font-20" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Enquiry <img src="./asset/images/enquiry.png" alt=""></div>
+    <div class="blogs blogs-v2">
+        <div class="blogs-head blog-head-res">
+            <div class="container">
+                <div class="blogs-head-left">
+                    <h3 class="font-60">Our Blogs</h3>
+                    <h6 class="font-22 product-item-contents">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. </h6>
+                </div>
+               
+                </div>
+                <div class="blogs-head-right">
+            </div>
+
+
+        </div>
+        <section class="breadcrumb-main">
+            <div class="container">
+                <ul class="sub-breadcrumb">
+                    <li><a class="font-16" href="#"><span></span>Home</a></li>
+                    <li> <a class="font-16" href="#"><span></span>Blog</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="blog-categories">
+            <div class="container">
+                <div class="products">
+                    <div class="product-head  d-flex justify-content-between">
+                        <h3 class="product-heading product-item-contents font-28">Categories</h3>
+                        <div class="search category-search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="What are you looking for?">
+                                <div class="input-group-append">
+                                    <button class="btn bg-search" type="button">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="skin-care">
+                    <div class="skin-care-one d-flex">
+
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <img src="./asset/images/care-1.png" alt="">
+                                <p class="skin-text font-28">Hair Care</p>
+                                <div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow">
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <img src="./asset/images/care-2.png" alt="">
+                                <p class="skin-text font-28">Face Care</p>
+                                <div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <img src="./asset/images/care-3.png" alt="">
+                                <p class="skin-text font-28">Hand Care</p>
+                                <div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <img src="./asset/images/care-4.png" alt="">
+                                <p class="skin-text font-28">Skin Care</p><div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <img src="./asset/images/care-5.png" alt="">
+                                <p class="skin-text font-28">Immunity Care</p>
+                                <div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <img src="./asset/images/care-6.png" alt="">
+                                <p class="skin-text font-28">Digestives</p>
+                                <div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <img src="./asset/images/care-7.png" alt="">
+                                <p class="skin-text font-28">Single Herbs</p>
+                                <div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <img src="./asset/images/care-8.png" alt="">
+                                <p class="skin-text font-28">Natural Herbal Juices</p>
+                                <div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <img src="./asset/images/care-9.png" alt="">
+                                <p class="skin-text font-28">Health Supplements</p>
+                                <div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <img src="./asset/images/care-10.png" alt="">
+                                <p class="skin-text font-28">Pack of 5</p>
+                                <div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow">
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <h1 class="font-42 header-title">All Blogs</h1>
+                <div class="blogs row">
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                        <div class="rose-card">
+                            <a href="./HerbodayaBlogs-Detail-v2.html">
+                            <div class="rose-card-img rose-img-common"></div>
+                            <div class="rose-card-content">
+                                <div class="calender d-flex">
+                                    <div class="cla-img"><img src="./asset/images/calender.png" alt=""></div>
+                                    <p class="font-14 sep">September 18, 2021</p>
+                                </div>
+                                <div class="wraper-rose">
+                                    <p class="rose-water-skin product-item-contents font-22">Rose Water for Skin</p>
+                                    <p class="rose-para font-18">1. Due to its antiseptic properties and the fact rose
+                                        water
+                                        can prompt the creation of histamines by the immune system, it has been shown to
+                                        […]
+                                    </p>
+                                </div>
+                                <button class="btn font-16 read-more">Read more</button>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                        <div class="rose-card">
+                            <a href="./HerbodayaBlogs-Detail-v2.html">
+                            <div class="rose-card-img-2 rose-img-common"></div>
+                            <div class="rose-card-content">
+                                <div class="calender d-flex">
+                                    <div class="cla-img"><img src="./asset/images/calender.png" alt=""></div>
+                                    <p class="font-14 sep">November 25, 2020</p>
+                                </div>
+                                <div class="wraper-rose">
+                                    <p class="rose-water-skin product-item-contents font-22">Triphala Uses</p>
+                                    <p class="rose-para font-18">Triphala is a mixture of the dried fruits of the
+                                        following
+                                        three plants native to India. Amla (Emblica officinalis) 1. More commonly known
+                                        as
+                                        Indian gooseberry, […]
+                                    </p>
+                                </div>
+
+                                <button class="btn font-16 read-more">Read more</button>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                        <div class="rose-card">
+                            <a href="./HerbodayaBlogs-Detail-v2.html">
+                            <div class="rose-card-img-3 rose-img-common"></div>
+                            <div class="rose-card-content">
+                                <div class="calender d-flex">
+                                    <div class="cla-img"><img src="./asset/images/calender.png" alt=""></div>
+                                    <p class="font-14 sep">November 4, 2020</p>
+                                </div>
+                                <div class="wraper-rose">
+                                    <p class="rose-water-skin product-item-contents font-22">Neem Oil for Hair</p>
+                                    <p class="rose-para font-18">1. Promotes Hair Growth Neem hair oil is the age-old
+                                        solution for healthy hair growth. While it strengthens the roots and accelerates
+                                        growth, it can also […]</p>
+                                </div>
+
+                                <button class="btn font-16 read-more">Read more</button>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                        <div class="rose-card">
+                            <a href="./HerbodayaBlogs-Detail-v2.html">
+                            <div class="rose-card-img-4 rose-img-common"></div>
+                            <div class="rose-card-content">
+                                <div class="calender d-flex">
+                                    <div class="cla-img"><img src="./asset/images/calender.png" alt=""></div>
+                                    <p class="font-14 sep">November 3, 2020</p>
+                                </div>
+                                <div class="wraper-rose">
+                                    <p class="rose-water-skin product-item-contents font-22">Benefits of Turmeric for Skin</p>
+                                    <p class="rose-para font-18">1. Due to its antiseptic properties and the fact rose
+                                        water
+                                        can prompt the creation of histamines by the immune system, it has been shown to
+                                        […]
+                                    </p>
+                                </div>
+
+                                <button class="btn font-16 read-more">Read more</button>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                        <div class="rose-card">
+                            <a href="./HerbodayaBlogs-Detail-v2.html">
+                            <div class="rose-card-img-5 rose-img-common"></div>
+                            <div class="rose-card-content">
+                                <div class="calender d-flex">
+                                    <div class="cla-img"><img src="./asset/images/calender.png" alt=""></div>
+                                    <p class="font-14 sep">November 3, 2020</p>
+                                </div>
+                                <div class="wraper-rose">
+                                    <p class="rose-water-skin product-item-contents font-22">Benefits of Aloe Vera</p>
+                                    <p class="rose-para font-18">1. HELPS IN CURING DERMATITIS Aloe vera has been used
+                                        for
+                                        skin ailments since ancient times. The pure inner gel extracted from the aloe
+                                        leaf
+                                        is […]
+                                    </p>
+                                </div>
+
+                                <button class="btn font-16 read-more">Read more</button>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                        <div class="rose-card">
+                            <a href="./HerbodayaBlogs-Detail-v2.html">
+                            <div class="rose-card-img-6 rose-img-common"></div>
+                            <div class="rose-card-content">
+                                <div class="calender d-flex">
+                                    <div class="cla-img"><img src="./asset/images/calender.png" alt=""></div>
+                                    <p class="font-14 sep">October 30, 2020</p>
+                                </div>
+                                <div class="wraper-rose">
+                                    <p class="rose-water-skin product-item-contents font-22">Bhrigaraj for Hair</p>
+                                    <p class="rose-para font-18">Reduce hair fall Prevents scalp itchiness Cures
+                                        baldness
+                                        Reduces greying Hair growth Reduces hair fall There might be a variety of
+                                        reasons
+                                        behind hair loss but […]</p>
+                                </div>
+
+                                <button class="btn font-16 read-more">Read more</button>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                        <div class="rose-card">
+                            <a href="./HerbodayaBlogs-Detail-v2.html">
+                            <div class="rose-card-img-7 rose-img-common"></div>
+                            <div class="rose-card-content">
+                                <div class="calender d-flex">
+                                    <div class="cla-img"><img src="./asset/images/calender.png" alt=""></div>
+                                    <p class="font-14 sep">August 10, 2020</p>
+                                </div>
+                                <div class="wraper-rose">
+                                    <p class="rose-water-skin product-item-contents font-22">Benefits of Sandal (Chandana) for Skin</p>
+                                    <p class="rose-para font-18">1. Anti-inflammatory Properties Its anti-inflammatory
+                                        properties help to any kind of burning sensation caused due to acne </p>
+                                </div>
+
+                                <button class="btn font-16 read-more">Read more</button>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                        <div class="rose-card">
+                            <a href="./HerbodayaBlogs-Detail-v2.html">
+                            <div class="rose-card-img-8 rose-img-common"></div>
+                            <div class="rose-card-content">
+                                <div class="calender d-flex">
+                                    <div class="cla-img"><img src="./asset/images/calender.png" alt=""></div>
+                                    <p class="font-14 sep">September 6, 2019</p>
+                                </div>
+                                <div class="wraper-rose">
+                                    <p class="rose-water-skin product-item-contents font-22">Benefits of Tulsi</p>
+                                    <p class="rose-para font-18">It is one of the oldest herb known as, the queen of
+                                        herbs,
+                                        benefits of tulsi’s healing and healthful properties have been the most
+                                        treasured
+                                        knowledge across the world.[...]</p>
+                                </div>
+
+                                <button class="btn font-16 read-more">Read more</button>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-studies">
+                    <h3 class="blog-case">Case Studies</h3>
+                    <div class=" row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="case-wrapper">
+                                <span><img src="./asset/images/download.png" alt=""></span>
+                                <p class="font-22">SKM Herbodaya Nilavembu Ingredients</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="case-wrapper">
+                                <span><img src="./asset/images/download.png" alt=""></span>
+                                <p class="font-22">Clinical documentation of Dengue</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="case-wrapper">
+                                <span><img src="./asset/images/download.png" alt=""></span>
+                                <p class="font-22">One Page Report for Dengue</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="case-wrapper">
+                                <span><img src="./asset/images/download.png" alt=""></span>
+                                <p class="font-22">Single Case Study - Dengue Treatement</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="case-wrapper">
+                                <span><img src="./asset/images/download.png" alt=""></span>
+                                <p class="font-22">SKM Herbodaya - Dengue Lab Report</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="case-wrapper">
+                                <span><img src="./asset/images/download.png" alt=""></span>
+                                <p class="font-22">Hospital Report for Dengue</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-address">
+                  <img class="footer-logo" src="./asset/images/herbodaya-logo.png" alt="herbodaya">
+                  <p class="skm font-24">SKM SIDDHA AND AYURVEDA
+                    COMPANY(INDIA)Pvt.Ltd,</p>
+                  <p class="font-20">Saminathapuram (PO),</p>
+                  <p class="font-20">Modakkurichi, Erode</p>
+                  <p class="font-20">Tamil Nadu-638104</p>
+                </div>
+              </div>
+              <div class="quick-links col-xl-3 col-lg-3 col-md-6 col-sm-6 ">
+                <ul>
+                  <p class="footer-headings font-22">Quick Links:</p>
+                  <li><a href="#" class="font-18">My Account</a></li>
+                  <li><a href="#" class="font-18">My Products</a></li>
+                  <li><a href="./herbodaya-blogs-v2.html" class="font-18">Blog</a></li>
+                  <li><a href="#" class="font-18">Terms and Conditions</a></li>
+                  <li><a href="#" class="font-18">Privacy Policy</a></li>
+                  <li><a href="#" class="font-18">Refund Policy</a></li>
+                </ul>
+              </div>
+              <div class="recent-posts col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                <ul>
+                  <p class="footer-headings font-22">Recent Posts:</p>
+                  <li><a href="#" class="font-18">Rose Water for Skin</a> </li>
+                  <li><a href="#" class="font-18">Triphala Uses</a></li>
+                  <li><a href="#" class="font-18">Neem Oil User For Hair</a> </li>
+                  <li><a href="#" class="font-18">Benefits Of Turmeric For Skin</a></li>
+                  <li><a href="#" class="font-18">Benefits of Aloe Vera</a></li>
+                </ul>
+              </div>
+    
+    
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-contact">
+                  <p class="footer-headings font-22">Contact Us:</p>
+    
+                <div class="footer-link-content">
+                  <p class="skm font-18">Customer Support :</p>
+                  <p class="font-18"> +91 9626533378 | 0424 – 2500590</p>
+                </div>
+    
+                <div class="footer-link-content">
+                  <p class="skm font-18">Sales & Marketing</p>
+                  <p class="font-18"> +91 9962713555 | +91 9994910539</p>
+                </div>
+    
+                <div class="footer-link-content">
+                  <p class="skm font-18">E-mail:</p>
+                  <p class="font-18"> helpdesk@herbodaya.com</p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            <div class="copyright-content">
+              <div>
+                <p class="font-16">Copyright © 2022 Herbodaya. All Rights Reserved</p>
+              </div>
+              <div>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+
+  
+
+    <!-- enquiry modal -->
+    <div class="modal fade eaque" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content settting-icon">
+             
+                <div class="modal-inner">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            
+                  <div class="modal-body">
+                    <div class="info-input">
+                        <div class="personal-name info-input">
+                            <label class="font-20" for="name">Name*</label>
+                            <input type="text" class="font-18"id="name" placeholder="John William"/>
+                        </div>
+                        <div class="personal-last info-input">
+                            <label class="font-20" for="last-name">Email Id*</label>
+                            <input type="text" class="font-18"id="last-name" placeholder="Example@gmail.com"/>
+                        </div>
+                        <div class=" info-input">
+                            <label class="font-20" for="ph-number">Mobile Number*</label>
+                            <input type="text" class="font-18"id="ph-number" placeholder="9090909090"/>
+                        </div>
+                        <div class="personal-last info-input">
+                            <label class="font-20" for="skin">Category*</label>
+                            <select name="skin" id="skin">
+                                <option value="">Skin</option>
+                                <option value="">Skin</option>
+                                <option value="">Skin</option>
+                                <option value="">Skin</option>
+                            </select>
+                        </div>
+                        <div class="personal-last info-input">
+                            <label class="font-20" for="lname">Description</label>
+                            <textarea  class="font-18"id="lname" placeholder="Type Here..." name=""  cols="30" rows="10"></textarea>
+                        </div>
+                       </div>
+                       <div class="signup-button">
+                        <button class="font-20"data-bs-dismiss="modal">Submit</button>
+                    </div>
+                </div>
+                </div>
+              
+            </div>
+          </div>
+      </div>
+
+
+       <!-- Modal -->
+  <div class="modal fade eaque" id="profileModal" tabindex="-1" aria-labelledby="profileModalLabel" aria-hidden="true">
+   
+  </div>
+  <div class="profile-background"></div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./js/custom.js"></script>
+  <script src="./asset/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+</body>
+
+</html>

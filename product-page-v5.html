@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        <!-- owl carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <title>Herbodaya</title>
+</head>
+
+<body class="herbodaya">
+    
+     <!-- scroll-top -->
+     <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./asset/images/scroll-to-top.png" alt=""></button>
+    <header class="header">
+
+        <div class="header-offer">
+          <p class="offer-para font-20">Get 30% Off on skin products for first purchase</p>
+        </div>
+  
+        <div class="header-content">
+          <div class="container device-container">
+            <div class="header-content-items">
+              <div class="logo">
+                <img src="./asset/images/herbodaya-logo.png" alt="herbodaya-logo">
+              </div>
+              <div class="search main desktop">
+                <div class="input-group">
+                    <select name="" class="categories">
+                      <option value="">All categories</option>
+                    </select>
+                    <input type="text" class="form-control categories-input" placeholder="What are you looking for?">
+                    <div class="input-group-append">
+                      <button class="btn btn-secondary bg-search" type="button">
+                        <i class="fa fa-search"></i>
+                      </button>
+                    </div>
+                  </div>
+              </div>
+  
+              <div class="menu desktop">
+                <div class="d-flex align-items-center menu-content-l">  <a href="./Herbodaya-my-wishlist.html">
+                    <img class="menu-img" src="./asset/images/wishlist.png" alt="whislist">
+                  </a>
+                  <p><a href="./Herbodaya-my-wishlist.html">Wishlist</a> </p>
+                </div>
+                <div class="d-flex align-items-center menu-content-r"><a href="./add-to-cart.html">
+                    <img class="menu-img" src="./asset/images/cart.png"
+                      alt="cart"></a>
+                  <p><a href="./add-to-cart.html">Cart</a> </p>
+                </div>
+                <div class="menu-login"><button class="btn verify header-verify font-20">
+                    <p> <img class="user-logo" src="./asset/images/sigin-logo.png" alt="user"><a href="./signup.html"class="font-18"> Login/Signup</a></p>
+                  </button></div>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+  
+        <div class="header-menu">
+  
+          <div class="hamburger" id="hamburger-11">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+          <div class="menu mobile">
+            <div class="d-flex align-items-center menu-content-l">  
+                <a href="./Herbodaya-my-wishlist.html">
+                <img class="menu-img" src="./asset/images/wishlist.png" alt="whislist">
+              </a></div>
+            <div class="d-flex align-items-center menu-content-r"><a href="./add-to-cart.html">
+                <img class="menu-img" src="./asset/images/cart.png"
+                  alt="cart"></a></div>
+          </div>
+  
+          <div class="search main mobile">
+            <div class="input-group">
+                <select name="" class="categories">
+                  <option value="">All categories</option>
+                </select>
+                <input type="text" class="form-control categories-input" placeholder="What are you looking for?">
+                <div class="input-group-append">
+                  <button class="btn btn-secondary bg-search" type="button">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </div>
+              </div>
+          </div>
+          <ul class="menu-items">
+            <div class="hamburger is-active" id="hamburger-11">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+                      <li><a href="./Home.html">HOME</a></li>
+
+            <li class="active"><a href="./product-page-v5.html">PRODUCTS</a></li>
+            <li><a href="#">TESTIMONIALS</a></li>
+            <li><a href="./aboutus.html">ABOUT US</a></li>
+            <li><a href="#">ENQUIRY</a></li>
+            <li><a href="./contactus.html">CONTACT US</a></li>
+          </ul>
+        </div>
+  
+        <div class="search main mobile-sm">
+            <div class="input-group">
+                <select name="" class="categories">
+                  <option value="">All categories</option>
+                </select>
+                <input type="text" class="form-control categories-input" placeholder="What are you looking for?">
+                <div class="input-group-append">
+                  <button class="btn btn-secondary bg-search" type="button">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </div>
+              </div>
+        </div>
+        <!-- menu -->
+  
+      </header>
+      <div class="enquiry font-20" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Enquiry <img src="./asset/images/enquiry.png" alt="" ></div>
+   
+      <div class="product-v5">
+        <div id="health-boost-caro" class="owl-carousel">
+        
+            <div class="boost-health boost-health-one d-flex justify-content-center">
+                <div class="boost-left-one">
+                    <h3 class="boost-head font-72">Boost <span class="boost-your font-32">Your</span> Health</h3>
+                    <p class="every-slip font-32">With Every Sip</p>
+                    <p class="boost-para font-22">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmodtempor.</p>
+                </div>
+                <div class="boost-right">
+                    <div class="juice-img"> <img src="./asset/images/aloevera-juice.png" alt="aloevera-juice-image">
+                    </div>
+                </div>
+            </div>
+            <div class="boost-health boost-health-two">
+                <h3 class="boost-head boost-head-two font-72">Grow <span class="boost-your font-32">Your</span> Immunity
+                </h3>
+                <div class="boost-division-two">
+                    <div class="boost-left-two">
+                        <div class="left">
+
+                            <p class="every-slip font-32">With Herbodaya Kudineer Chooranam</p>
+                            <p class="boost-para font-22">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor. </p>
+                        </div>
+                    </div>
+                    <div class="boost-right">
+                        <div class="kabasura-img"> <img src="./asset/images/kabasura.png" alt="aloevera-juice-image">
+                        </div>
+                    </div>
+                </div>
+           
+        </div>
+</div>
+        <section class="breadcrumb-main">
+            <div class="container">
+                <ul class="sub-breadcrumb">
+                    <li><a class="font-16" href="#"><span></span>Home</a></li>
+                    <li> <a class="font-16" href="#"><span></span>Products</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="product-skin-care">
+            <div class="container">
+                <div class="skin-care">
+                    <div class="skin-care-one d-flex">
+
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <a href="./product-seperate-category-v1.html">
+                                    <img src="./asset/images/care-1.png" alt="">
+                                    <p class="skin-text font-28">Hair Care</p>
+                                    <div class="skin-shadow skin-shadow-1"></div>
+                                    <div class="skin-shadow"></div>
+                                </a>
+                               
+                            </div>
+                        </div>
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <a href="./product-seperate-category-v1.html">
+                                <img src="./asset/images/care-2.png" alt="">
+                                <p class="skin-text font-28">Face Care</p>
+                                <div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <a href="./product-seperate-category-v1.html">
+                                <img src="./asset/images/care-3.png" alt="">
+                                <p class="skin-text font-28">Hand Care</p>
+                                <div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <a href="./product-seperate-category-v1.html">
+                                <img src="./asset/images/care-4.png" alt="">
+                                <p class="skin-text font-28">Skin Care</p>
+                                <div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <a href="./product-seperate-category-v1.html">
+                                <img src="./asset/images/care-5.png" alt="">
+                                <p class="skin-text font-28">Immunity Care</p>
+                                <div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow"></div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <a href="./product-seperate-category-v1.html">
+                                <img src="./asset/images/care-6.png" alt="">
+                                <p class="skin-text font-28">Digestives</p>
+                                <div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <a href="./product-seperate-category-v1.html">
+                                <img src="./asset/images/care-7.png" alt="">
+                                <p class="skin-text font-28">Single Herbs</p>
+                                <div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <a href="./product-seperate-category-v1.html">
+                                <img src="./asset/images/care-8.png" alt="">
+                                <p class="skin-text font-28">Natural Herbal Juices</p>
+                                <div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <a href="./product-seperate-category-v1.html">
+                                <img src="./asset/images/care-9.png" alt="">
+                                <p class="skin-text font-28">Health Supplements</p>
+                                <div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="skin-care-div">
+                            <div class="skin-wrapper">
+                                <a href="./product-seperate-category-v1.html">
+                                <img src="./asset/images/care-10.png" alt="">
+                                <p class="skin-text font-28">Pack of 5</p>
+                                <div class="skin-shadow skin-shadow-1"></div>
+                                <div class="skin-shadow"></div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="products">
+                    <div class="product-head  d-flex justify-content-between">
+                        <h3 class="product-heading font-28">Products</h3>
+                        <div class="product-filter d-flex" data-bs-toggle="modal" data-bs-target="#filtermodal" >
+                            <p class="font-18">Filters</p>
+                            <div class="filter-img">
+                                <img src="./asset/images/filter.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row ">
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 hair-hover-division">
+                            <div class="product-div">
+                                <a href="./herbodayaProductsDetails.html">
+                                <div class="ribbon red-rib">
+                                    <p class="font-16">Trending</p>
+                                </div>
+                                <div class="wishlist"><img src="./asset/images/wishlist.svg" alt="wishlist images"></div>
+                                <div class="hair-img">
+                                    <img src="./asset/images/hairoil.png" alt="">
+                                </div>
+                                <div class="hair-div">
+                                    <p class="pro-para font-22">Herbodaya Bringa Hair Oil</p>
+                                    <p><span class="mrp font-26">MRP: ₹340</span><span class="ml font-16"> ( 250Ml )</span>
+                                    </p>
+                                    <p class="tax font-14">( Incl. of all taxes )</p>
+                                    <div class="star-img">
+                                        <span> <img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/whitestar.png" alt=""></span>
+                                        <span class="star-rating font-14">4.0 Ratings</span>
+                                    </div>
+                                    <button class="btn cart">Add to Cart</button>
+                                </div>
+                            </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 hair-hover-division">
+                            <div class="product-div">
+                                <a href="./herbodayaProductsDetails.html">
+                                <div class="ribbon yellow-rib">
+                                    <p class="font-16">20% Off</p>
+                                </div>
+                                <div class="wishlist"><img src="./asset/images/wishlist.svg" alt="wishlist images"></div>
+                                <div class="hair-img">
+                                    <img src="./asset/images/hairoil.png" alt="">
+                                </div>
+                                <div class="hair-div">
+                                    <p class="pro-para font-22">Herbodaya Bringa Hair Oil</p>
+                                    <p><span class="mrp font-26">MRP: ₹340</span><span class="ml font-16"> ( 250Ml )</span>
+                                    </p>
+                                    <p class="tax font-14">( Incl. of all taxes )</p>
+                                    <div class="star-img">
+                                        <span> <img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/whitestar.png" alt=""></span>
+                                        <span class="star-rating font-14">4.0 Ratings</span>
+                                    </div>
+                                    <button class="btn cart">Add to Cart</button>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 hair-hover-division">
+                            <div class="product-div">
+                                <a href="./herbodayaProductsDetails.html">
+                                <div class="ribbon blue-rib">
+                                    <p class="font-16">Best Seller</p>
+                                </div>
+                                <div class="wishlist"><img src="./asset/images/wishlist.svg" alt="wishlist images"></div>
+                                <div class="hair-img">
+                                    <img src="./asset/images/hairoil.png" alt="">
+                                </div>
+                                <div class="hair-div">
+                                    <p class="pro-para font-22">Herbodaya Bringa Hair Oil</p>
+                                    <p><span class="mrp font-26">MRP: ₹340</span><span class="ml font-16"> ( 250Ml )</span>
+                                    </p>
+                                    <p class="tax font-14">( Incl. of all taxes )</p>
+                                    <div class="star-img">
+                                        <span> <img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/whitestar.png" alt=""></span>
+                                        <span class="star-rating font-14">4.0 Ratings</span>
+                                    </div>
+                                    <button class="btn cart">Add to Cart</button>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 hair-hover-division">
+                            <div class="product-div">
+                                <a href="./herbodayaProductsDetails.html">
+                                <div class="ribbon green-rib">
+                                    <p class="font-16">New</p>
+                                </div>
+                                <div class="wishlist"><img src="./asset/images/wishlist.svg" alt="wishlist images"></div>
+                                <div class="hair-img">
+                                    <img src="./asset/images/hairoil.png" alt="">
+                                </div>
+                                <div class="hair-div">
+                                    <p class="pro-para font-22">Herbodaya Bringa Hair Oil</p>
+                                    <p><span class="mrp font-26">MRP: ₹340</span><span class="ml font-16"> ( 250Ml )</span>
+                                    </p>
+                                    <p class="tax font-14">( Incl. of all taxes )</p>
+                                    <div class="star-img">
+                                        <span> <img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/whitestar.png" alt=""></span>
+                                        <span class="star-rating font-14">4.0 Ratings</span>
+                                    </div>
+                                    <button class="btn cart">Add to Cart</button>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 hair-hover-division">
+                            <div class="product-div">
+                                <a href="./herbodayaProductsDetails.html">
+                                <div class="ribbon purple-rib">
+                                    <p class="font-16">Must try</p>
+                                </div>
+                                <div class="wishlist"><img src="./asset/images/wishlist.svg" alt="wishlist images"></div>
+                                <div class="hair-img">
+                                    <img src="./asset/images/hair-wash.png" alt="">
+                                </div>
+                                <div class="hair-div">
+                                    <p class="pro-para font-22">Shikakai Hair Wash</p>
+                                    <p><span class="mrp font-26">MRP: ₹340</span><span class="ml font-16"> ( 250Ml )</span>
+                                    </p>
+                                    <p class="tax font-14">( Incl. of all taxes )</p>
+                                    <div class="star-img">
+                                        <span> <img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/whitestar.png" alt=""></span>
+                                        <span class="star-rating font-14">4.0 Ratings</span>
+                                    </div>
+                                    <button class="btn cart">Add to Cart</button>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 hair-hover-division">
+                            <div class="product-div">
+                                <a href="./herbodayaProductsDetails.html">
+                                <div class="ribbon yellow-rib">
+                                    <p class="font-16">20% Off</p>
+                                </div>
+                                <div class="wishlist"><img src="./asset/images/wishlist.svg" alt="wishlist images"></div>
+                                <div class="hair-img">
+                                    <img src="./asset/images/hair-wash.png" alt="">
+                                </div>
+                                <div class="hair-div">
+                                    <p class="pro-para font-22">Shikakai Hair Wash</p>
+                                    <p><span class="mrp font-26">MRP: ₹340</span><span class="ml font-16"> ( 250Ml )</span>
+                                    </p>
+                                    <p class="tax font-14">( Incl. of all taxes )</p>
+                                    <div class="star-img">
+                                        <span> <img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/whitestar.png" alt=""></span>
+                                        <span class="star-rating font-14">4.0 Ratings</span>
+                                    </div>
+                                    <button class="btn cart">Add to Cart</button>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 hair-hover-division">
+                            <div class="product-div">
+                                <a href="./herbodayaProductsDetails.html">
+                                <div class="ribbon red-rib">
+                                    <p class="font-16">Trending</p>
+                                </div>
+                                <div class="wishlist"><img src="./asset/images/wishlist.svg" alt="wishlist images"></div>
+                                <div class="hair-img">
+                                    <img src="./asset/images/hair-wash.png" alt="">
+                                </div>
+                                <div class="hair-div">
+                                    <p class="pro-para font-22">Shikakai Hair Wash</p>
+                                    <p><span class="mrp font-26">MRP: ₹340</span><span class="ml font-16"> ( 250Ml )</span>
+                                    </p>
+                                    <p class="tax font-14">( Incl. of all taxes )</p>
+                                    <div class="star-img">
+                                        <span> <img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/whitestar.png" alt=""></span>
+                                        <span class="star-rating font-14">4.0 Ratings</span>
+                                    </div>
+                                    <button class="btn cart">Add to Cart</button>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 hair-hover-division">
+                            <div class="product-div">
+                                <a href="./herbodayaProductsDetails.html">
+                                <div class="ribbon blue-rib">
+                                    <p class="font-16">Best Seller</p>
+                                </div>
+                                <div class="wishlist"><img src="./asset/images/wishlist.svg" alt="wishlist images"></div>
+                                <div class="hair-img">
+                                    <img src="./asset/images/hair-wash.png" alt="">
+                                </div>
+                                <div class="hair-div">
+                                    <p class="pro-para font-22">Shikakai Hair Wash</p>
+                                    <p><span class="mrp font-26">MRP: ₹340</span><span class="ml font-16"> ( 250Ml )</span>
+                                    </p>
+                                    <p class="tax font-14">( Incl. of all taxes )</p>
+                                    <div class="star-img">
+                                        <span> <img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/whitestar.png" alt=""></span>
+                                        <span class="star-rating font-14">4.0 Ratings</span>
+                                    </div>
+                                    <button class="btn cart">Add to Cart</button>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 hair-hover-division">
+                            <div class="product-div">
+                                <a href="./herbodayaProductsDetails.html">
+                                <div class="ribbon red-rib">
+                                    <p class="font-16">Trending</p>
+                                </div>
+                                <div class="wishlist"><img src="./asset/images/wishlist.svg" alt="wishlist images"></div>
+                                <div class="hair-img">
+                                    <img src="./asset/images/bringaraj-shampoo.png" alt="">
+                                </div>
+                                <div class="hair-div">
+                                    <p class="pro-para font-22">Bringaraj Anti-Hairfall Shampoo</p>
+                                    <p><span class="mrp font-26">MRP: ₹340</span><span class="ml font-16"> ( 250Ml )</span>
+                                    </p>
+                                    <p class="tax font-14">( Incl. of all taxes )</p>
+                                    <div class="star-img">
+                                        <span> <img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/whitestar.png" alt=""></span>
+                                        <span class="star-rating font-14">4.0 Ratings</span>
+                                    </div>
+                                    <button class="btn cart">Add to Cart</button>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 hair-hover-division">
+                            <div class="product-div">
+                                <a href="./herbodayaProductsDetails.html">
+                                <div class="ribbon blue-rib">
+                                    <p class="font-16">Best Seller</p>
+                                </div>
+                                <div class="wishlist"><img src="./asset/images/wishlist.svg" alt="wishlist images"></div>
+                                <div class="hair-img">
+                                    <img src="./asset/images/neem-shampoo.png" alt="">
+                                </div>
+                                <div class="hair-div">
+                                    <p class="pro-para font-22">Neem Anti-dandruff Shampoo</p>
+                                    <p><span class="mrp font-26">MRP: ₹340</span><span class="ml font-16"> ( 250Ml )</span>
+                                    </p>
+                                    <p class="tax font-14">( Incl. of all taxes )</p>
+                                    <div class="star-img">
+                                        <span> <img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/whitestar.png" alt=""></span>
+                                        <span class="star-rating font-14">4.0 Ratings</span>
+                                    </div>
+                                    <button class="btn cart">Add to Cart</button>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 hair-hover-division">
+                            <div class="product-div">
+                                <a href="./herbodayaProductsDetails.html">
+                                <div class="ribbon yellow-rib">
+                                    <p class="font-16">20% Off</p>
+                                </div>
+                                <div class="wishlist"><img src="./asset/images/wishlist.svg" alt="wishlist images"></div>
+                                <div class="hair-img">
+                                    <img src="./asset/images/coconut-shampoo.png" alt="">
+                                </div>
+                                <div class="hair-div">
+                                    <p class="pro-para font-22">Coconut Milk Nourishing Shampoo</p>
+                                    <p><span class="mrp font-26">MRP: ₹340</span><span class="ml font-16"> ( 250Ml )</span>
+                                    </p>
+                                    <p class="tax font-14">( Incl. of all taxes )</p>
+                                    <div class="star-img">
+                                        <span> <img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/whitestar.png" alt=""></span>
+                                        <span class="star-rating font-14">4.0 Ratings</span>
+                                    </div>
+                                    <button class="btn cart">Add to Cart</button>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 hair-hover-division">
+                            <div class="product-div">
+                                <a href="./herbodayaProductsDetails.html">
+                                <div class="ribbon green-rib">
+                                    <p class="font-16">New</p>
+                                </div>
+                                <div class="wishlist"><img src="./asset/images/wishlist.svg" alt="wishlist images"></div>
+                                <div class="hair-img">
+                                    <img src="./asset/images/shikakai-shampoo.png" alt="">
+                                </div>
+                                <div class="hair-div">
+                                    <p class="pro-para font-22">Shikakai Volumizing Shampoo</p>
+                                    <p><span class="mrp font-26">MRP: ₹340</span><span class="ml font-16"> ( 250Ml )</span>
+                                    </p>
+                                    <p class="tax font-14">( Incl. of all taxes )</p>
+                                    <div class="star-img">
+                                        <span> <img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                        <span><img src="./asset/images/whitestar.png" alt=""></span>
+                                        <span class="star-rating font-14">4.0 Ratings</span>
+                                    </div>
+                                    <button class="btn cart">Add to Cart</button>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+        <div class="shipping-main">
+
+            <div class="container">
+                <div class="shipping d-flex justify-content-between">
+                    <div class="ship ship-1">
+
+                        <div class="cod-img-main"> <img src="./asset/images/shipping.png" alt="shipping image"></div>
+
+                        <p class="ship-para-1 font-28">Free Shipping</p>
+                        <p class="ship-para-2 font-18">On Orders Above Rs. 500</p>
+                    </div>
+
+                    <div class="ship ship-2">
+                        <div class="cod-img-main"> <img src="./asset/images/cod.png" alt="shipping image"></div>
+
+                        <p class="ship-para-1 font-28">Cash on Delivery</p>
+                        <p class="ship-para-2 font-18">Available for Premium Customers</p>
+                    </div>
+
+                    <div class="ship ship-3">
+                        <div class="cod-img-main">
+                            <span class="cod-img"><img src="./asset/images/visa.png" alt="visa image"> </span>
+                            <span class="cod-img"><img src="./asset/images/visa-circle.png" alt="visa image"></span>
+                            <span class="cod-img"><img src="./asset/images/american-express.png"
+                                    alt="american express image"></span>
+                            <span class="cod-img"><img src="./asset/images/rupay.png" alt="rupay image"></span>
+                            <span class="cod-img"><img src="./asset/images/netbanking.png"
+                                    alt="net banking image"></span>
+                        </div>
+                        <p class="ship-para-1 font-28">Payment</p>
+                        <p class="ship-para-2 font-18">100% Payment Protection, Easy Return Policy</p>
+
+
+                    </div>
+                    <div class="ship ship-4">
+                        <p class="query-para font-24">Have Queries or Concerns?</p>
+                        <a class="btn greybtn font-18"  href="./contactus.html"> Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-address">
+                  <img class="footer-logo" src="./asset/images/herbodaya-logo.png" alt="herbodaya">
+                  <p class="skm font-24">SKM SIDDHA AND AYURVEDA
+                    COMPANY(INDIA)Pvt.Ltd,</p>
+                  <p class="font-20">Saminathapuram (PO),</p>
+                  <p class="font-20">Modakkurichi, Erode</p>
+                  <p class="font-20">Tamil Nadu-638104</p>
+                </div>
+              </div>
+              <div class="quick-links col-xl-3 col-lg-3 col-md-6 col-sm-6 ">
+                <ul>
+                  <p class="footer-headings font-22">Quick Links:</p>
+                  <li><a href="#" class="font-18">My Account</a></li>
+                  <li><a href="#" class="font-18">My Products</a></li>
+                  <li><a href="./herbodaya-blogs-v2.html" class="font-18">Blog</a></li>
+                  <li><a href="#" class="font-18">Terms and Conditions</a></li>
+                  <li><a href="#" class="font-18">Privacy Policy</a></li>
+                  <li><a href="#" class="font-18">Refund Policy</a></li>
+                </ul>
+              </div>
+              <div class="recent-posts col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                <ul>
+                  <p class="footer-headings font-22">Recent Posts:</p>
+                  <li><a href="#" class="font-18">Rose Water for Skin</a> </li>
+                  <li><a href="#" class="font-18">Triphala Uses</a></li>
+                  <li><a href="#" class="font-18">Neem Oil User For Hair</a> </li>
+                  <li><a href="#" class="font-18">Benefits Of Turmeric For Skin</a></li>
+                  <li><a href="#" class="font-18">Benefits of Aloe Vera</a></li>
+                </ul>
+              </div>
+    
+    
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-contact">
+                  <p class="footer-headings font-22">Contact Us:</p>
+    
+                <div class="footer-link-content">
+                  <p class="skm font-18">Customer Support :</p>
+                  <p class="font-18"> +91 9626533378 | 0424 – 2500590</p>
+                </div>
+    
+                <div class="footer-link-content">
+                  <p class="skm font-18">Sales & Marketing</p>
+                  <p class="font-18"> +91 9962713555 | +91 9994910539</p>
+                </div>
+    
+                <div class="footer-link-content">
+                  <p class="skm font-18">E-mail:</p>
+                  <p class="font-18"> helpdesk@herbodaya.com</p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            <div class="copyright-content">
+              <div>
+                <p class="font-16">Copyright © 2022 Herbodaya. All Rights Reserved</p>
+              </div>
+              <div>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+      <!-- fileter Modal -->
+      
+
+      <div class="modal fade filter-product" id="filtermodal" tabindex="-1" aria-labelledby="filtermodalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+            <line y1="-0.5" x2="16.1434" y2="-0.5" transform="matrix(-0.668986 0.743275 -0.668986 -0.743275 10.8008 0)" stroke="#3F5149"/>
+            <line y1="-0.5" x2="16.1434" y2="-0.5" transform="matrix(-0.668986 -0.743275 0.668986 -0.743275 12 11.9998)" stroke="#3F5149"/>
+            </svg></button>
+          <div class="modal-content">
+      
+            
+              <div class="filter-product-header">
+                <p class="font-22">Filter by</p>
+                <p class="font-22">Reset</p>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="lable-checkbox"><label class="con font-2">Most Popular
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span></label></div>
+                  
+                </div>
+                <div class="col-lg-6">
+                  <div class="lable-checkbox"><label class="con font-2">Must Try
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span></label></div>
+                  
+                </div>
+                <div class="col-lg-6">
+                  <div class="lable-checkbox"><label class="con font-2">New Products
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span></label></div>
+                  
+                </div>
+                <div class="col-lg-6">
+                  <div class="lable-checkbox"><label class="con font-2">Trending
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span></label></div>
+                  
+                </div>
+                <div class="col-lg-12">
+                    <div class="lable-checkbox select-label"><label class="con font-2">
+                      <select class="form-select all-categories font-20" aria-label="Default select example"  disabled>
+                        <option selected>All Categories</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                      <input type="checkbox" >
+                      <span class="checkmark"></span></label></div>
+                    
+                  </div>
+                <div class="col-lg-12">
+                  <div class="lable-checkbox"><label class="con font-2">Offers
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span></label></div>
+                  
+                </div>
+                <div class="filter-offers">
+                  <p class="font-18 active">All</p>
+                  <p  class="font-18">10 - 20%</p>
+                  <p  class="font-18">20 - 30%</p>
+                </div>
+                <div class="col-lg-12">
+                  <div class="lable-checkbox"><label class="con font-2">Price
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span></label></div>
+                    <div class="filter-price">
+                      <p  class="font-18 active">High - Low</p>
+                      <p  class="font-18">Low - High</p>
+                    </div>
+                  
+                </div>
+                <div class="col-lg-12 ">
+              <button type="button" class="btn btn-secondary   apply-filters" data-bs-dismiss="modal">Apply Filters</button>
+      
+                </div>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+      
+
+  <!-- enquiry modal -->
+  <div class="modal fade eaque" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content settting-icon">
+         
+            <div class="modal-inner">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        
+          <div class="modal-body">
+              <div class="info-input">
+                  <div class="personal-name info-input">
+                      <label class="font-20" for="name">Name*</label>
+                      <input type="text" class="font-18"id="name" placeholder="John William"/>
+                  </div>
+                  <div class="personal-last info-input">
+                      <label class="font-20" for="last-name">Email Id*</label>
+                      <input type="text" class="font-18"id="last-name" placeholder="Example@gmail.com"/>
+                  </div>
+                  <div class=" info-input">
+                      <label class="font-20" for="ph-number">Mobile Number*</label>
+                      <input type="text" class="font-18"id="ph-number" placeholder="9090909090"/>
+                  </div>
+                  <div class="personal-last info-input">
+                      <label class="font-20" for="skin">Category*</label>
+                      <select name="skin" id="skin">
+                          <option value="">Skin</option>
+                          <option value="">Skin</option>
+                          <option value="">Skin</option>
+                          <option value="">Skin</option>
+                      </select>
+                  </div>
+                  <div class="personal-last info-input">
+                      <label class="font-20" for="lname">Description</label>
+                      <textarea  class="font-18"id="lname" placeholder="Type Here..." name=""  cols="30" rows="10"></textarea>
+                  </div>
+                 </div>
+                 <div class="signup-button">
+                    <button class="font-20"data-bs-dismiss="modal">Submit</button>
+              </div>
+          </div>
+            </div>
+          
+        </div>
+      </div>
+  </div>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./js/custom.js"></script>
+  <script src="./asset/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+
+
+    <script>
+        $(document).ready(function(){
+  $(".wishlist").click(function(){
+   $(this).toggleClass("green-heart");
+  });
+});
+    </script>
+</body>
+
+</html>

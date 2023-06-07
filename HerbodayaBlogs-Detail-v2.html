@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <!-- owl carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <title>Herbodaya</title>
+</head>
+
+<body class="herbodaya">
+   <!-- scroll-top -->
+   <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./asset/images/scroll-to-top.png" alt=""></button>
+
+      <header class="header">
+
+      <div class="header-offer">
+        <p class="offer-para font-20">Get 30% Off on skin products for first purchase</p>
+      </div>
+
+      <div class="header-content">
+        <div class="container device-container">
+          <div class="header-content-items">
+            <div class="logo">
+              <img src="./asset/images/herbodaya-logo.png" alt="herbodaya-logo">
+            </div>
+            <div class="search main desktop">
+              <div class="input-group">
+                <select name="" class="categories">
+                  <option value="">All categories</option>
+                </select>
+                <input type="text" class="form-control categories-input" placeholder="What are you looking for?">
+                <div class="input-group-append">
+                  <button class="btn btn-secondary bg-search" type="button">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu desktop">
+              <div class="d-flex align-items-center menu-content-l">
+                <a href="./Herbodaya-my-wishlist.html">
+                  <img class="menu-img"
+                  src="./asset/images/wishlist.png" alt="whislist"></a>
+                <p><a href="./Herbodaya-my-wishlist.html">Wishlist</a> </p>
+              </div>
+              <div class="d-flex align-items-center menu-content-r"><a href="./add-to-cart.html">
+                <img class="menu-img" src="./asset/images/cart.png"
+                  alt="cart"></a>
+                <p><a href="./add-to-cart.html">Cart</a> </p>
+              </div>
+              <div class="profile-total" >
+                <div class="profile-name">
+                    <p class="font-14">Welcome!!</p>
+                    <h3 class="font-18">John Willaim</h3>
+                </div>
+                <div class="profile-icon">
+                    <img src="./asset/images/john.png" alt="profile">
+                </div>
+                <div class="modal-dialog profile-poopup">
+                    <div class="profile-poop-main">
+                      <a href="myprofile.html"><p class="profil-para">My Profile</p></a>
+                      <a href="orders.html"> <p class="profil-para profile-active">My Orders</p></a>  
+                      <p class="profil-para">Sign Out</p>
+                    </div>
+                  </div>
+
+            </div>
+              <!-- <div class="menu-login"><button class="btn verify header-verify font-20">
+                  <p> <img class="user-logo" src="./asset/images/sigin-logo.png" alt="user"><a href="./signup.html"> Login/Signup</a></p>
+                </button></div> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="header-menu">
+
+        <div class="hamburger" id="hamburger-11">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <div class="menu mobile">
+          <div class="d-flex align-items-center menu-content-l">
+            <a href="./Herbodaya-my-wishlist.html">
+              <img class="menu-img" src="./asset/images/wishlist.png"
+              alt="whislist"></a></div>
+          <div class="d-flex align-items-center menu-content-r"><a href="./add-to-cart.html">
+            <img class="menu-img" src="./asset/images/cart.png"
+              alt="cart"></a></div>
+        </div>
+
+        <div class="search main mobile">
+          <div class="input-group">
+            <select name="" class="categories">
+              <option value="">All categories</option>
+            </select>
+            <input type="text" class="form-control categories-input" placeholder="What are you looking for?">
+            <div class="input-group-append">
+              <button class="btn btn-secondary bg-search" type="button">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <ul class="menu-items">
+          <div class="hamburger is-active" id="hamburger-11">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+                    <li><a href="./Home.html">HOME</a></li>
+
+          <li><a href="./product-page-v5.html">PRODUCTS</a></li>
+          <li><a href="#">TESTIMONIALS</a></li>
+          <li><a href="./aboutus.html">ABOUT US</a></li>
+          <li><a href="#">ENQUIRY</a></li>
+          <li><a href="./contactus.html">CONTACT US</a></li>
+        </ul>
+      </div>
+
+      <div class="search main mobile-sm">
+        <div class="input-group">
+          <select name="" class="categories">
+            <option value="">All categories</option>
+          </select>
+          <input type="text" class="form-control categories-input" placeholder="What are you looking for?">
+          <div class="input-group-append">
+            <button class="btn btn-secondary bg-search" type="button">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- menu -->
+
+    </header>
+
+    <section class="breadcrumb-main">
+        <div class="container">
+            <ul class="sub-breadcrumb">
+                <li><a class="font-16" href="#"><span></span>Home</a></li>
+                <li> <a class="font-16" href="#"><span></span>Products</a></li>
+                <li><a class="font-16" href="#"><span></span>Rose Water for Skin</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="rose-water">
+        <div class="container">
+            <h1 class="font-42 header-title"><span>Rose Water for Skin</span></h1>
+            
+            <div class="row">
+                <div class="col-lg-8 col-md-12 col-sm12">
+                    <div id="blog-detail-banner" class="owl-carousel">
+                        <div class="blog-detail">
+                            <img src="./asset/images/rose-banner.png" alt="">
+                        </div>
+                        <div class="blog-detail">
+                            <img src="./asset/images/rose-banner.png" alt="">
+                        </div>
+                        <div class="blog-detail">
+                            <img src="./asset/images/rose-banner.png" alt="">
+                        </div>
+                        <div class="blog-detail">
+                            <img src="./asset/images/rose-banner.png" alt="">
+                        </div>
+  
+                       
+        
+        
+        
+                    </div>
+                    <div class="rose-water-inner">
+
+                        <p class="rose-water-list font-20">1. Due to its antiseptic properties and the fact rose water
+                            can prompt the creation of histamines by the immune system, it has been shown to be useful
+                            for preventing and treating infections. </p>
+                        <p class="rose-water-list font-20">
+                            2. Rose water has antiseptic and antibacterial properties, which mean it can help wounds
+                            heal faster, by keeping them clean and fighting injections.
+
+                        </p>
+                        <p class="rose-water-list font-20">
+                            3. The antioxidants in rose water protect the cells in the skin against damage.
+
+                        </p>
+                        <p class="rose-water-list font-20">
+                            4. Organic Rose water also has anti-inflammatory properties, which means it can be put on
+                            the skin to soothe the irritation caused by conditions, such as eczema and acne.
+
+                        </p>
+                        <p class="rose-water-list font-20">
+                            5. It can help soothe the skin and reduce redness, as well as act as an anti-aging product
+                            by reducing the appearance of lines and wrinkles.
+
+                        </p>
+                        <p class="rose-water-list font-20">
+                            6. Dab cold rose water on the eyes and around the face, it would hydrate the areas and keep
+                            the skin fresh & moist. Click to know more Facial Toner
+
+                        </p>
+                        <p class="rose-water-list font-20">
+                            7. Rose water helps soothe and heal sunburns with its cooling properties.
+
+                        </p>
+                        <p class="rose-water-list font-20">
+                            8. Its antibacterial properties, rose water also aids in healing scars, cuts and wounds.
+
+                        </p>
+                        <p class="rose-water-list font-20">
+                            9. Make a quick face pack with lemon juice and rosewater. Apply on the affected area or
+                            entire face for 25 minutes. Rinse with lukewarm water. If your skin is acne prone.
+
+                        </p>
+                        <p class="rose-water-list font-20">
+                            10. Control Oil Secretion If oily skin is your arch-nemesis, you’ll thank us for this! Rose
+                            water reduces oil secretion and cleanses pores from deep within. Make a smooth paste with a
+                            splash of rosewater and multani mitti. Apply a thin coat on your face and let it dry. Rinse
+                            off with lukewarm water.</p>
+                            <div class="rose-water-list-written">
+                              <div class="rose-water-list-written-inner">
+                                <p class="font-18">Written By,</p>
+                                <h3 class="font-26">Herbodaya</h3>
+                              </div>
+                                <div class=" rose-water-list-written-share">
+                                    <p class="product-share ">Share to : 
+                                        <span class="icon-whatsapp"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                                fill="none">
+                                                <path opacity="0.7"
+                                                    d="M10.0025 0H9.9975C4.48375 0 0 4.485 0 10C0 12.1875 0.705 14.215 1.90375 15.8612L0.6575 19.5763L4.50125 18.3475C6.0825 19.395 7.96875 20 10.0025 20C15.5162 20 20 15.5138 20 10C20 4.48625 15.5162 0 10.0025 0ZM15.8212 14.1213C15.58 14.8025 14.6225 15.3675 13.8587 15.5325C13.3363 15.6437 12.6537 15.7325 10.3562 14.78C7.4175 13.5625 5.525 10.5763 5.3775 10.3825C5.23625 10.1887 4.19 8.80125 4.19 7.36625C4.19 5.93125 4.91875 5.2325 5.2125 4.9325C5.45375 4.68625 5.8525 4.57375 6.235 4.57375C6.35875 4.57375 6.47 4.58 6.57 4.585C6.86375 4.5975 7.01125 4.615 7.205 5.07875C7.44625 5.66 8.03375 7.095 8.10375 7.2425C8.175 7.39 8.24625 7.59 8.14625 7.78375C8.0525 7.98375 7.97 8.0725 7.8225 8.2425C7.675 8.4125 7.535 8.5425 7.3875 8.725C7.2525 8.88375 7.1 9.05375 7.27 9.3475C7.44 9.635 8.0275 10.5937 8.8925 11.3637C10.0087 12.3575 10.9137 12.675 11.2375 12.81C11.4787 12.91 11.7662 12.8863 11.9425 12.6988C12.1663 12.4575 12.4425 12.0575 12.7238 11.6638C12.9237 11.3813 13.1763 11.3462 13.4412 11.4462C13.7113 11.54 15.14 12.2462 15.4338 12.3925C15.7275 12.54 15.9212 12.61 15.9925 12.7338C16.0625 12.8575 16.0625 13.4388 15.8212 14.1213Z"
+                                                    fill="#3F5149" />
+                                            </svg></span>
+                                            <span class="icon-facebook"><svg xmlns="http://www.w3.org/2000/svg"
+                                                width="11" height="20" viewBox="0 0 11 20" fill="none">
+                                                <path
+                                                    d="M10.5858 0.00416134L7.94737 0C4.98322 0 3.06766 1.9319 3.06766 4.92203V7.19141H0.414863C0.18563 7.19141 0 7.37409 0 7.59943V10.8875C0 11.1128 0.185842 11.2953 0.414863 11.2953H3.06766V19.5922C3.06766 19.8175 3.25329 20 3.48252 20H6.94366C7.17289 20 7.35852 19.8173 7.35852 19.5922V11.2953H10.4603C10.6895 11.2953 10.8751 11.1128 10.8751 10.8875L10.8764 7.59943C10.8764 7.49123 10.8326 7.38762 10.7549 7.31105C10.6772 7.23448 10.5714 7.19141 10.4613 7.19141H7.35852V5.26763C7.35852 4.34298 7.58267 3.87358 8.808 3.87358L10.5853 3.87295C10.8144 3.87295 11 3.69027 11 3.46514V0.411972C11 0.187052 10.8146 0.00457747 10.5858 0.00416134Z"
+                                                    fill="#4867AA" />
+                                            </svg></span>
+                                            <span class="icon-twitter"><svg xmlns="http://www.w3.org/2000/svg"
+                                                width="20" height="16" viewBox="0 0 20 16" fill="none">
+                                                <path
+                                                    d="M20 1.89415C19.2563 2.21538 18.4637 2.42831 17.6375 2.53169C18.4875 2.032 19.1363 1.24677 19.4412 0.300308C18.6488 0.765538 17.7738 1.09415 16.8412 1.27754C16.0887 0.488616 15.0162 0 13.8462 0C11.5763 0 9.74875 1.81415 9.74875 4.03815C9.74875 4.35815 9.77625 4.66585 9.84375 4.95877C6.435 4.79508 3.41875 3.18646 1.3925 0.736C1.03875 1.34031 0.83125 2.032 0.83125 2.77662C0.83125 4.17477 1.5625 5.41415 2.6525 6.13169C1.99375 6.11938 1.3475 5.93108 0.8 5.63446C0.8 5.64677 0.8 5.66277 0.8 5.67877C0.8 7.64062 2.22125 9.27015 4.085 9.64554C3.75125 9.73538 3.3875 9.77846 3.01 9.77846C2.7475 9.77846 2.4825 9.76369 2.23375 9.70954C2.765 11.3083 4.2725 12.4837 6.065 12.5218C4.67 13.5963 2.89875 14.2437 0.98125 14.2437C0.645 14.2437 0.3225 14.2289 0 14.1883C1.81625 15.3415 3.96875 16 6.29 16C13.835 16 17.96 9.84615 17.96 4.512C17.96 4.33354 17.9538 4.16123 17.945 3.99015C18.7588 3.42154 19.4425 2.71138 20 1.89415Z"
+                                                    fill="#3F5149" />
+                                            </svg></span>
+                                            <span class="icon-instagram"><svg xmlns="http://www.w3.org/2000/svg"
+                                                width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                <g opacity="0.7">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M4.41177 0H15.5882C18.021 0 20 1.97898 20 4.41177V15.5882C20 18.021 18.021 20 15.5882 20H4.41177C1.97898 20 0 18.021 0 15.5882V4.41177C0 1.97898 1.97898 0 4.41177 0ZM4.48529 10C4.48529 13.0408 6.95916 15.5147 10 15.5147C13.0408 15.5147 15.5147 13.0408 15.5147 10C15.5147 6.95916 13.0408 4.48529 10 4.48529C6.95916 4.48529 4.48529 6.95916 4.48529 10ZM15.2206 3.67647C15.2206 4.28567 15.7143 4.77941 16.3235 4.77941C16.9327 4.77941 17.4265 4.28567 17.4265 3.67647C17.4265 3.06727 16.9327 2.57353 16.3235 2.57353C15.7143 2.57353 15.2206 3.06727 15.2206 3.67647ZM10.0002 13.3091C11.8276 13.3091 13.3091 11.8276 13.3091 10.0002C13.3091 8.17291 11.8276 6.69141 10.0002 6.69141C8.17291 6.69141 6.69141 8.17291 6.69141 10.0002C6.69141 11.8276 8.17291 13.3091 10.0002 13.3091Z"
+                                                        fill="#3F5149" />
+                                                </g>
+                                            </svg></span>
+                                            </p>
+                                </div>
+                            </div>
+
+
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 blog-products ">
+                    <p class="font-28 blog-related-products">Related Products</p>
+                   <div class="height-countrol-prduct">
+                    <div class="col-xl-12 col-sm-12 ">
+                     <a href="./herbodayaProductsDetails.html">
+                      <div class="product-div blogs-detail">
+                        <div class="ribbon yellow-rib">
+                            <p class="font-16">20% Off</p>
+                        </div>
+                        <div class="wishlist"><img src="./asset/images/wishlist.svg" alt="wishlist images"></div>
+                       <div class="blogs-product-div d-flex p-0">
+                        <div class="hair-img col-4 p-0">
+                            <img src="./asset/images/sandal.png" alt="">
+                        </div>
+                        <div class="hair-div col-8 p-0">
+                            <p class="pro-para font-18">Herbodaya Sandal Soap</p>
+                            <p><span class="mrp font-22">MRP: ₹340</span><span class="ml font-16"> ( 250Ml )</span>
+                            </p>
+                            <p class="tax font-14">( Incl. of all taxes )</p>
+                            <div class="star-img">
+                                <span> <img src="./asset/images/yellowstar.png" alt=""></span>
+                                <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                <span><img src="./asset/images/whitestar.png" alt=""></span>
+                                <span class="star-rating font-14">4.0 Ratings</span>
+                            </div>
+                            
+                        </div>
+                        
+                       </div>
+                       <button class="btn cart">Add to Cart</button>
+                    </div>
+                     </a>
+                  </div>
+                  <div class="col-xl-12 col-sm-12 ">
+                      <div class="product-div blogs-detail">
+                          <div class="ribbon red-rib">
+                              <p class="font-16">Trending</p>
+                          </div>
+                          <div class="wishlist"><img src="./asset/images/wishlist.svg" alt="wishlist images"></div>
+                         <div class="blogs-product-div d-flex p-0">
+                          <div class="hair-img col-4 p-0">
+                              <img src="./asset/images/Soap 1.png" alt="">
+                          </div>
+                          <div class="hair-div col-8 p-0">
+                              <p class="pro-para font-18">Herbodaya Sandal Soap</p>
+                              <p><span class="mrp font-22">MRP: ₹340</span><span class="ml font-16"> ( 250Ml )</span>
+                              </p>
+                              <p class="tax font-14">( Incl. of all taxes )</p>
+                              <div class="star-img">
+                                  <span> <img src="./asset/images/yellowstar.png" alt=""></span>
+                                  <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                  <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                  <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                  <span><img src="./asset/images/whitestar.png" alt=""></span>
+                                  <span class="star-rating font-14">4.0 Ratings</span>
+                              </div>
+                              
+                          </div>
+                          
+                         </div>
+                         <button class="btn cart">Add to Cart</button>
+                      </div>
+                  </div>
+                  <div class="col-xl-12 ">
+                      <div class="product-div blogs-detail">
+                          <div class="ribbon blue-rib">
+                              <p class="font-16">Best Seller</p>
+                          </div>
+                          <div class="wishlist"><img src="./asset/images/wishlist.svg" alt="wishlist images"></div>
+                         <div class="blogs-product-div d-flex p-0">
+                          <div class="hair-img col-4 p-0">
+                              <img src="./asset/images/kumkumadi-face-cream.png" alt="">
+                          </div>
+                          <div class="hair-div col-8 p-0">
+                              <p class="pro-para font-18">Kumkumadi Face Cream</p>
+                              <p><span class="mrp font-22">MRP: ₹340</span><span class="ml font-16"> ( 250Ml )</span>
+                              </p>
+                              <p class="tax font-14">( Incl. of all taxes )</p>
+                              <div class="star-img">
+                                  <span> <img src="./asset/images/yellowstar.png" alt=""></span>
+                                  <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                  <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                  <span><img src="./asset/images/yellowstar.png" alt=""></span>
+                                  <span><img src="./asset/images/whitestar.png" alt=""></span>
+                                  <span class="star-rating font-14">4.0 Ratings</span>
+                              </div>
+                              
+                          </div>
+                          
+                         </div>
+                         <button class="btn cart">Add to Cart</button>
+                      </div>
+                  </div>
+                   </div>
+                    <div class="consultant-online">
+                        <div class="consultant-online-img"><img src="./asset/images/contact.png" alt=""></div>
+                        <div class="consultant-online-contact">
+                            <h2 class="font-28">Contact our Consultant Online</h2>
+                            <p class="font-18">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium .</p>
+                            <button class="font-18" data-bs-toggle="modal" data-bs-target="#example-2">Consult a Doctor Online</button>
+                            <!-- Modal -->
+                        
+                        </div>
+                    </div>
+                <div class="categories-iterm">
+                    <h2 class="font-28">
+                        Categories
+                    </h2>
+                    <p class="font-18">Hair Care</p>
+                    <p class="font-18">Skin Care</p>
+                    <p class="font-18">Face Care</p>
+                    <p class="font-18">Hand Care</p>
+                    <p class="font-18">Immunity Care</p>
+                    <p class="font-18">Natural Herbal Juices</p>
+                    <p class="font-18">Pack of 5</p>
+                    <p class="font-18">Health Supplements</p>
+                    <p class="font-18">Single Herbs</p>
+                    <p class="font-18">Digestives</p>
+                </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="blog-detail-helpful">
+      <div class="container">
+          <h2 class="blog-detail-helpful-header font-24">Did You Find This Blog Helpful?</h2>
+          <p class="blog-detail-helpful-rating font-18">Give a Star Rating</p>
+          <div class="blog-detail-helpful-rating-star" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="./asset/images/yellowstar.png" alt="rating-star"><img src="./asset/images/whitestar.png" alt="rating-star"><img src="./asset/images/whitestar.png" alt="rating-star"><img src="./asset/images/whitestar.png" alt="rating-star"><img src="./asset/images/whitestar.png" alt="rating-star"></div>
+      </div>
+    
+          
+        
+  </section>
+
+    <section class="blog-home blog-list">
+        <div class="container">
+            <h1 class="header-title font-42"><span>Related Blog</span></h1>
+            <p class="font-30 blog-home-p ">Lorem ipsum dolor sit amet</p>
+ 
+              <div id="blog-detail-sliders" class="owl-carousel">
+  
+                <div class="post-slider">
+                  <a href="./HerbodayaBlogs-Detail-v2.html">
+                      <div class="rose-card">
+                          <div class="rose-card-img rose-img-common"></div>
+                          <div class="rose-card-content">
+                              <div class="calender d-flex">
+                                  <div class="cla-img"><img src="./asset/images/calender.png" alt=""></div>
+                                  <p class="font-14 sep">September 18, 2021</p>
+                              </div>
+                              <div class="wraper-rose">
+                                  <p class="rose-water-skin font-22">Rose Water for Skin</p>
+                                  <p class="rose-para font-18">1. Due to its antiseptic properties and the fact
+                                      rose water can prompt the creation of histamines by the immune system, it
+                                      has been shown to […]</p>
+                              </div>
+                              <button class="btn font-16 read-more">Read more</button>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+
+              <div class="post-slider">
+                  <div class="rose-card">
+                      <div class="rose-card-img-2 rose-img-common"></div>
+                      <div class="rose-card-content">
+                          <div class="calender d-flex">
+                              <div class="cla-img"><img src="./asset/images/calender.png" alt=""></div>
+                              <p class="font-14 sep">November 25, 2020</p>
+                          </div>
+                          <div class="wraper-rose">
+                              <p class="rose-water-skin font-22">Triphala Uses</p>
+                              <p class="rose-para font-18">Triphala is a mixture of the dried fruits of the following three plants native to India. Amla (Emblica officinalis) 1. More commonly known as Indian gooseberry, […]
+                              </p>
+                          </div>
+                          <button class="btn font-16 read-more">Read more</button>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="post-slider">
+                  <div class="rose-card">
+                      <div class="rose-card-img-3 rose-img-common"></div>
+                      <div class="rose-card-content">
+                          <div class="calender d-flex">
+                              <div class="cla-img"><img src="./asset/images/calender.png" alt=""></div>
+                              <p class="font-14 sep">November 4, 2020</p>
+                          </div>
+                          <div class="wraper-rose">
+                              <p class="rose-water-skin font-22">Neem Oil for Hair</p>
+                              <p class="rose-para font-18">1. Promotes Hair Growth Neem hair oil is the age-old solution for healthy hair growth. While it strengthens the roots and accelerates growth, it can also […]</p>
+                          </div>
+                          <button class="btn font-16 read-more">Read more</button>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="post-slider">
+                  <div class="rose-card">
+                      <div class="rose-card-img-4 rose-img-common"></div>
+                      <div class="rose-card-content">
+                          <div class="calender d-flex">
+                              <div class="cla-img"><img src="./asset/images/calender.png" alt=""></div>
+                              <p class="font-14 sep">November 3, 2020 </p>
+                          </div>
+                          <div class="wraper-rose">
+                              <p class="rose-water-skin font-22">Benefits of Turmeric for Skin</p>
+                              <p class="rose-para font-18">1. Due to its antiseptic properties and the fact rose water can prompt the creation of histamines by the immune system, it has been shown to […]</p>
+                          </div>
+                          <button class="btn font-16 read-more">Read more</button>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="post-slider">
+                  <div class="rose-card">
+                      <div class="rose-card-img rose-img-common"></div>
+                      <div class="rose-card-content">
+                          <div class="calender d-flex">
+                              <div class="cla-img"><img src="./asset/images/calender.png" alt=""></div>
+                              <p class="font-14 sep">September 18, 2021</p>
+                          </div>
+                          <div class="wraper-rose">
+                              <p class="rose-water-skin font-22">Rose Water for Skin</p>
+                              <p class="rose-para font-18">1. Due to its antiseptic properties and the fact
+                                  rose water can prompt the creation of histamines by the immune system, it
+                                  has been shown to […]</p>
+                          </div>
+                          <button class="btn font-16 read-more">Read more</button>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="post-slider">
+                  <div class="rose-card">
+                      <div class="rose-card-img-2 rose-img-common"></div>
+                      <div class="rose-card-content">
+                          <div class="calender d-flex">
+                              <div class="cla-img"><img src="./asset/images/calender.png" alt=""></div>
+                              <p class="font-14 sep">November 25, 2020</p>
+                          </div>
+                          <div class="wraper-rose">
+                              <p class="rose-water-skin font-22">Triphala Uses</p>
+                              <p class="rose-para font-18">Triphala is a mixture of the dried fruits of the following three plants native to India. Amla (Emblica officinalis) 1. More commonly known as Indian gooseberry, […]
+                              </p>
+                          </div>
+                          <button class="btn font-16 read-more">Read more</button>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="post-slider">
+                  <div class="rose-card">
+                      <div class="rose-card-img-3 rose-img-common"></div>
+                      <div class="rose-card-content">
+                          <div class="calender d-flex">
+                              <div class="cla-img"><img src="./asset/images/calender.png" alt=""></div>
+                              <p class="font-14 sep">November 4, 2020</p>
+                          </div>
+                          <div class="wraper-rose">
+                              <p class="rose-water-skin font-22">Neem Oil for Hair</p>
+                              <p class="rose-para font-18">1. Promotes Hair Growth Neem hair oil is the age-old solution for healthy hair growth. While it strengthens the roots and accelerates growth, it can also […]</p>
+                          </div>
+                          <button class="btn font-16 read-more">Read more</button>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="post-slider">
+                  <div class="rose-card">
+                      <div class="rose-card-img-4 rose-img-common"></div>
+                      <div class="rose-card-content">
+                          <div class="calender d-flex">
+                              <div class="cla-img"><img src="./asset/images/calender.png" alt=""></div>
+                              <p class="font-14 sep">November 3, 2020</p>
+                          </div>
+                          <div class="wraper-rose">
+                              <p class="rose-water-skin font-22">Benefits of Turmeric for Skin</p>
+                              <p class="rose-para font-18">1. Due to its antiseptic properties and the fact
+                                  rose water can prompt the creation of histamines by the immune system, it
+                                  has been shown to […]</p>
+                          </div>
+                          <button class="btn font-16 read-more">Read more</button>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="post-slider">
+                  <div class="rose-card">
+                      <div class="rose-card-img rose-img-common"></div>
+                      <div class="rose-card-content">
+                          <div class="calender d-flex">
+                              <div class="cla-img"><img src="./asset/images/calender.png" alt=""></div>
+                              <p class="font-14 sep">September 18, 2021</p>
+                          </div>
+                          <div class="wraper-rose">
+                              <p class="rose-water-skin font-22">Rose Water for Skin</p>
+                              <p class="rose-para font-18">1. Due to its antiseptic properties and the fact
+                                  rose water can prompt the creation of histamines by the immune system, it
+                                  has been shown to […]</p>
+                          </div>
+                          <button class="btn font-16 read-more">Read more</button>
+                      </div>
+                  </div>
+              </div>
+  
+              </div>
+       
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-address">
+                  <img class="footer-logo" src="./asset/images/herbodaya-logo.png" alt="herbodaya">
+                  <p class="skm font-24">SKM SIDDHA AND AYURVEDA
+                    COMPANY(INDIA)Pvt.Ltd,</p>
+                  <p class="font-20">Saminathapuram (PO),</p>
+                  <p class="font-20">Modakkurichi, Erode</p>
+                  <p class="font-20">Tamil Nadu-638104</p>
+                </div>
+              </div>
+              <div class="quick-links col-xl-3 col-lg-3 col-md-6 col-sm-6 ">
+                <ul>
+                  <p class="footer-headings font-22">Quick Links:</p>
+                  <li><a href="#" class="font-18">My Account</a></li>
+                  <li><a href="#" class="font-18">My Products</a></li>
+                  <li><a href="./herbodaya-blogs-v2.html" class="font-18">Blog</a></li>
+                  <li><a href="#" class="font-18">Terms and Conditions</a></li>
+                  <li><a href="#" class="font-18">Privacy Policy</a></li>
+                  <li><a href="#" class="font-18">Refund Policy</a></li>
+                </ul>
+              </div>
+              <div class="recent-posts col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                <ul>
+                  <p class="footer-headings font-22">Recent Posts:</p>
+                  <li><a href="#" class="font-18">Rose Water for Skin</a> </li>
+                  <li><a href="#" class="font-18">Triphala Uses</a></li>
+                  <li><a href="#" class="font-18">Neem Oil User For Hair</a> </li>
+                  <li><a href="#" class="font-18">Benefits Of Turmeric For Skin</a></li>
+                  <li><a href="#" class="font-18">Benefits of Aloe Vera</a></li>
+                </ul>
+              </div>
+    
+    
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-contact">
+                  <p class="footer-headings font-22">Contact Us:</p>
+    
+                <div class="footer-link-content">
+                  <p class="skm font-18">Customer Support :</p>
+                  <p class="font-18"> +91 9626533378 | 0424 – 2500590</p>
+                </div>
+    
+                <div class="footer-link-content">
+                  <p class="skm font-18">Sales & Marketing</p>
+                  <p class="font-18"> +91 9962713555 | +91 9994910539</p>
+                </div>
+    
+                <div class="footer-link-content">
+                  <p class="skm font-18">E-mail:</p>
+                  <p class="font-18"> helpdesk@herbodaya.com</p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            <div class="copyright-content">
+              <div>
+                <p class="font-16">Copyright © 2022 Herbodaya. All Rights Reserved</p>
+              </div>
+              <div>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+<!-- enquiry -->
+      <button type="button" class="enquiry font-20" data-bs-toggle="modal" data-bs-target="#example1">
+        Get Enquiry <img src="./asset/images/enquiry.png" alt="Enquiry">
+      </button>
+
+        <!-- Modal next -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="container fit">
+          <div class="modal-dialog change-password-dialog">
+              <div class="modal-content">
+         
+               <div class="change-pswd">
+                  <div class="forgot-close" data-bs-dismiss="modal" aria-label="Close">
+                      <img src="./asset/images/forgot-close.png" alt="">
+                  </div>
+                  <form action="">
+                      <label for="" class="form-label">Name*</label>
+                      <input type="text" class="form-control" placeholder="John William">
+                      <label for="" class="form-label">Email Id*</label>
+                      <input type="text" class="form-control" placeholder="Example@gmail.com">
+                      <label for="" class="form-label">Mobile Number</label>
+                      <input type="text" class="form-control" placeholder="9090909090">
+                      <button class="btn forgt-btn">Rate</button>
+                  </form>
+               </div>
+                    </div>
+                 </div>
+               
+              </div>
+            </div>
+
+      <!-- popup 2 -->
+      <div class="modal fade consult-doctor" id="example-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content settting-icon">
+             
+                <div class="modal-inner">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            
+              <div class="modal-body">
+                  <div class="info-input">
+                      <div class="personal-name info-input">
+                          <label class="font-20" for="name">Name*</label>
+                          <input type="text" class="font-18"id="name" placeholder="John William"/>
+                      </div>
+                      <div class="personal-last info-input">
+                          <label class="font-20" for="last-name">Email Id*</label>
+                          <input type="text" class="font-18"id="last-name" placeholder="Example@gmail.com"/>
+                      </div>
+                      <div class=" info-input">
+                          <label class="font-20" for="ph-number">Mobile Number*</label>
+                          <input type="text" class="font-18"id="ph-number" placeholder="9090909090"/>
+                      </div>
+                      <div class="personal-last info-input">
+                          <label class="font-20" for="skin">Category*</label>
+                          <select name="skin" id="skin">
+                              <option value="">Skin</option>
+                              <option value="">Skin</option>
+                              <option value="">Skin</option>
+                              <option value="">Skin</option>
+                          </select>
+                      </div>
+                      <div class="personal-last info-input">
+                          <label class="font-20" for="lname">Description</label>
+                          <textarea  class="font-18"id="lname" placeholder="Type Here..." name=""  cols="30" rows="10"></textarea>
+                      </div>
+                     </div>
+                     <div class="signup-button">
+                      <button class="font-20"data-bs-dismiss="modal">Submit</button>
+                  </div>
+              </div>
+                </div>
+              
+            </div>
+          </div>
+      </div>
+            <!-- enquiry model-->
+            <div class="modal fade eaque" id="example1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content settting-icon">
+                 
+                    <div class="modal-inner">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                
+                  <div class="modal-body">
+                      <div class="info-input">
+                          <div class="personal-name info-input">
+                              <label class="font-20" for="name">Name*</label>
+                              <input type="text" class="font-18"id="name" placeholder="John William"/>
+                          </div>
+                          <div class="personal-last info-input">
+                              <label class="font-20" for="last-name">Email Id*</label>
+                              <input type="text" class="font-18"id="last-name" placeholder="Example@gmail.com"/>
+                          </div>
+                          <div class=" info-input">
+                              <label class="font-20" for="ph-number">Mobile Number*</label>
+                              <input type="text" class="font-18"id="ph-number" placeholder="9090909090"/>
+                          </div>
+                          <div class="personal-last info-input">
+                              <label class="font-20" for="skin">Category*</label>
+                              <select name="skin" id="skin">
+                                  <option value="">Skin</option>
+                                  <option value="">Skin</option>
+                                  <option value="">Skin</option>
+                                  <option value="">Skin</option>
+                              </select>
+                          </div>
+                          <div class="personal-last info-input">
+                              <label class="font-20" for="lname">Description</label>
+                              <textarea  class="font-18"id="lname" placeholder="Type Here..." name=""  cols="30" rows="10"></textarea>
+                          </div>
+                         </div>
+                         <div class="signup-button">
+                          <a type="button" class="btn font-20"data-bs-dismiss="modal">Submit</a>
+                      </div>
+                  </div>
+                    </div>
+                  
+                </div>
+              </div>
+            </div>
+    
+            <div class="profile-background show-profile-back"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <script src="./asset/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+</body>
+
+</html>

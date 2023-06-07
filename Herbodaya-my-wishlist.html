@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/variables.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Herbodaya</title>
+</head>
+
+<body class="herbodaya">
+
+  <header class="header">
+
+    <div class="header-offer">
+      <p class="offer-para font-20">Get 30% Off on skin products for first purchase</p>
+    </div>
+
+    <div class="header-content">
+      <div class="container device-container">
+        <div class="header-content-items">
+          <div class="logo">
+            <img src="./asset/images/herbodaya-logo.png" alt="herbodaya-logo">
+          </div>
+          <div class="search main desktop">
+            <div class="input-group">
+              <select name="" class="categories">
+                <option value="">All categories</option>
+              </select>
+              <input type="text" class="form-control categories-input" placeholder="What are you looking for?">
+              <div class="input-group-append">
+                <button class="btn btn-secondary bg-search" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu desktop">
+            <div class="d-flex align-items-center menu-content-l"><img class="menu-img"
+                src="./asset/images/whishlist-full.png" alt="whislist">
+              <p><a href="./Herbodaya-my-wishlist.html">Wishlist</a> </p>
+            </div>
+            <div class="d-flex align-items-center menu-content-r"><a href="./add-to-cart.html">
+              <img class="menu-img" src="./asset/images/cart.png"
+                alt="cart"></a>
+              <p><a href="./add-to-cart.html">Cart</a> </p>
+            </div>
+            <div class="profile-total">
+              <div class="profile-name">
+                <p class="font-14">Welcome!!</p>
+                <h3 class="font-18">John Willaim</h3>
+              </div>
+              <div class="profile-icon">
+                <img src="./asset/images/john.png" alt="profile">
+              </div>
+              <div class="modal-dialog profile-poopup">
+                <div class="profile-poop-main">
+                  <a href="myprofile.html"><p class="profil-para">My Profile</p></a>
+                  <a href="orders.html"> <p class="profil-para profile-active">My Orders</p></a>  
+                  <p class="profil-para">Sign Out</p>
+                </div>
+              </div>
+
+            </div>
+            <!-- <div class="menu-login"><button class="btn verify header-verify font-20">
+                  <p> <img class="user-logo" src="./asset/images/sigin-logo.png" alt="user"><a href="./signup.html"> Login/Signup</a></p>
+                </button></div> -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="header-menu">
+
+      <div class="hamburger" id="hamburger-11">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+      <div class="menu mobile">
+        <div class="d-flex align-items-center menu-content-l"><img class="menu-img" src="./asset/images/whishlist-full.png"
+            alt="whislist"></div>
+        <div class="d-flex align-items-center menu-content-r"><a href="./add-to-cart.html">
+          <img class="menu-img" src="./asset/images/cart.png"
+            alt="cart"></a></div>
+      </div>
+
+      <div class="search main mobile">
+        <div class="input-group">
+          <select name="" class="categories">
+            <option value="">All categories</option>
+          </select>
+          <input type="text" class="form-control categories-input" placeholder="What are you looking for?">
+          <div class="input-group-append">
+            <button class="btn btn-secondary bg-search" type="button">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <ul class="menu-items">
+        <div class="hamburger is-active" id="hamburger-11">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <li><a href="./Home.html">HOME</a></li>
+
+        <li><a href="./product-page-v5.html">PRODUCTS</a></li>
+        <li><a href="#">TESTIMONIALS</a></li>
+        <li><a href="./aboutus.html">ABOUT US</a></li>
+        <li><a href="#">ENQUIRY</a></li>
+        <li><a href="./contactus.html">CONTACT US</a></li>
+      </ul>
+    </div>
+
+    <div class="search main mobile-sm">
+      <div class="input-group">
+        <select name="" class="categories">
+          <option value="">All categories</option>
+        </select>
+        <input type="text" class="form-control categories-input" placeholder="What are you looking for?">
+        <div class="input-group-append">
+          <button class="btn btn-secondary bg-search" type="button">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- menu -->
+
+  </header>
+  <button type="button" class="enquiry font-20" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Get Enquiry <img src="./asset/images/enquiry.png" alt="Enquiry">
+  </button>
+  <!-- <div class="enquiry font-20"></div> -->
+  <section class="breadcrumb-main">
+    <div class="container">
+      <ul class="sub-breadcrumb">
+        <li><a class="font-16" href="#"><span></span>Home</a></li>
+        <li><a class="font-16" href="#"><span></span>Whishlist</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="my-wishlist">
+    <div class="container">
+      <h1 class="header-title font-42"><span>My Wishlist</span></h1>
+      <div class=" table-responsive">
+        <table class="table wishlist-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th class="font-26">Product Name</th>
+              <th class="font-26">Unit Price</th>
+              <th class="font-26">Stock Quantity</th>
+              <th></th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="wishlist-product-mg"><img src="./asset/images/WHITE-SOAP_10.dec_ 1.png" alt=""></div>
+
+              </td>
+              <td>
+
+                <h4 class="font-26 whislist-heading">Coconut Milk White Soap</h4>
+                <p class="f0nt-18"><img src="./asset/images/yellowstar.png" alt="yellowstar"><img
+                    src="./asset/images/yellowstar.png" alt="yellowstar"><img src="./asset/images/yellowstar.png"
+                    alt="yellowstar"><img src="./asset/images/yellowstar.png" alt="yellowstar"><img
+                    src="./asset/images/whitestar.png" alt=""> 4.0 Ratings</p>
+
+              </td>
+              <td class="font-18">MRP: ₹160.00</td>
+              <td class="font-18  stock">76 in Stock</td>
+              <td>
+                <p class="font-16">Product added on Jun 24, 2022</p>
+                <p><a class="btn font-18">Add to Cart</a></p>
+              </td>
+              <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="30" viewBox="0 0 24 30" fill="none">
+                  <path
+                    d="M1.71484 26.6667C1.71484 28.5085 3.24911 30.0001 5.14345 30.0001H18.8578C20.7521 30.0001 22.2863 28.5085 22.2863 26.6667V6.66675H1.71484V26.6667Z"
+                    fill="#676F6B" />
+                  <path d="M18 1.66664L16.2857 0H7.7143L5.99996 1.66664H0V5H24V1.66664H18Z" fill="#676F6B" />
+                </svg></td>
+            </tr>
+            <tr class="out-of-stock">
+              <td>
+                <div class="wishlist-product-mg"><img src="./asset/images/hairoil.png" alt=""></div>
+
+              </td>
+              <td>
+
+                <h4 class="font-26 whislist-heading">Herbodaya Bringa Hair Oil</h4>
+                <p class="f0nt-18"><img src="./asset/images/yellowstar.png" alt="yellowstar"><img
+                    src="./asset/images/yellowstar.png" alt="yellowstar"><img src="./asset/images/yellowstar.png"
+                    alt="yellowstar"><img src="./asset/images/yellowstar.png" alt="yellowstar"><img
+                    src="./asset/images/whitestar.png" alt=""> 4.0 Ratings</p>
+
+              </td>
+              <td class="font-18">MRP: ₹350.00</td>
+              <td class="font-18  stock">Out of Stock
+                <label class="con wishlist-check font-16 remeber-wishlist-list">Remeber me When product is on stock
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span></label>
+                <!-- <p class="font-16 remeber-wishlist-list"><input type="checkbox">Remeber me When product is on stock</p> -->
+              </td>
+              <td>
+                <p class="font-16">Product added on Jun 24, 2022</p>
+                <p><a class="btn font-18">Add to Cart</a></p>
+              </td>
+              <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="30" viewBox="0 0 24 30" fill="none">
+                  <path
+                    d="M1.71484 26.6667C1.71484 28.5085 3.24911 30.0001 5.14345 30.0001H18.8578C20.7521 30.0001 22.2863 28.5085 22.2863 26.6667V6.66675H1.71484V26.6667Z"
+                    fill="#676F6B" />
+                  <path d="M18 1.66664L16.2857 0H7.7143L5.99996 1.66664H0V5H24V1.66664H18Z" fill="#676F6B" />
+                </svg></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="wishlist-product-mg"><img src="./asset/images/herbal-tea.png" alt=""></div>
+
+              </td>
+              <td>
+
+                <h4 class="font-26 whislist-heading">Herbodaya Herbal Tea</h4>
+                <p class="f0nt-18"><img src="./asset/images/yellowstar.png" alt="yellowstar"><img
+                    src="./asset/images/yellowstar.png" alt="yellowstar"><img src="./asset/images/yellowstar.png"
+                    alt="yellowstar"><img src="./asset/images/yellowstar.png" alt="yellowstar"><img
+                    src="./asset/images/whitestar.png" alt=""> 4.0 Ratings</p>
+
+              </td>
+              <td class="font-18">MRP: ₹270.00</td>
+              <td class="font-18  stock">94 in Stock</td>
+              <td>
+                <p class="font-16">Product added on Jun 24, 2022</p>
+                <p><a class="btn font-18">Add to Cart</a></p>
+              </td>
+              <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="30" viewBox="0 0 24 30" fill="none">
+                  <path
+                    d="M1.71484 26.6667C1.71484 28.5085 3.24911 30.0001 5.14345 30.0001H18.8578C20.7521 30.0001 22.2863 28.5085 22.2863 26.6667V6.66675H1.71484V26.6667Z"
+                    fill="#676F6B" />
+                  <path d="M18 1.66664L16.2857 0H7.7143L5.99996 1.66664H0V5H24V1.66664H18Z" fill="#676F6B" />
+                </svg></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="wishlist-product-mg"><img src="./asset/images/kumkumadi-face-cream.png" alt=""></div>
+
+              </td>
+              <td>
+
+                <h4 class="font-26 whislist-heading">Kumkumadi Face Cream</h4>
+                <p class="f0nt-18"><img src="./asset/images/yellowstar.png" alt="yellowstar"><img
+                    src="./asset/images/yellowstar.png" alt="yellowstar"><img src="./asset/images/yellowstar.png"
+                    alt="yellowstar"><img src="./asset/images/yellowstar.png" alt="yellowstar"><img
+                    src="./asset/images/whitestar.png" alt=""> 4.0 Ratings</p>
+
+              </td>
+              <td class="font-18">MRP: ₹330.00</td>
+              <td class="font-18  stock">136 in Stock</td>
+              <td>
+                <p class="font-16">Product added on Jun 24, 2022</p>
+                <p><a class="btn font-18">Add to Cart</a></p>
+              </td>
+              <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="30" viewBox="0 0 24 30" fill="none">
+                  <path
+                    d="M1.71484 26.6667C1.71484 28.5085 3.24911 30.0001 5.14345 30.0001H18.8578C20.7521 30.0001 22.2863 28.5085 22.2863 26.6667V6.66675H1.71484V26.6667Z"
+                    fill="#676F6B" />
+                  <path d="M18 1.66664L16.2857 0H7.7143L5.99996 1.66664H0V5H24V1.66664H18Z" fill="#676F6B" />
+                </svg></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="wishlist-product-mg"><img src="./asset/images/aloevera-juice.png" alt=""></div>
+
+              </td>
+              <td>
+
+                <h4 class="font-26 whislist-heading">Aloe Vera Juice</h4>
+                <p class="f0nt-18"><img src="./asset/images/yellowstar.png" alt="yellowstar"><img
+                    src="./asset/images/yellowstar.png" alt="yellowstar"><img src="./asset/images/yellowstar.png"
+                    alt="yellowstar"><img src="./asset/images/yellowstar.png" alt="yellowstar"><img
+                    src="./asset/images/whitestar.png" alt=""> 4.0 Ratings</p>
+
+              </td>
+              <td class="font-18">MRP: ₹120.00</td>
+              <td class="font-18  stock">127 in Stock</td>
+              <td>
+                <p class="font-16">Product added on Jun 24, 2022</p>
+                <p><a class="btn font-18">Add to Cart</a></p>
+              </td>
+              <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="30" viewBox="0 0 24 30" fill="none">
+                  <path
+                    d="M1.71484 26.6667C1.71484 28.5085 3.24911 30.0001 5.14345 30.0001H18.8578C20.7521 30.0001 22.2863 28.5085 22.2863 26.6667V6.66675H1.71484V26.6667Z"
+                    fill="#676F6B" />
+                  <path d="M18 1.66664L16.2857 0H7.7143L5.99996 1.66664H0V5H24V1.66664H18Z" fill="#676F6B" />
+                </svg></td>
+            </tr>
+            <tr class="time-line-stock">
+              <td>
+                <div class="wishlist-product-mg"><img src="./asset/images/alovera-gel.png" alt=""></div>
+
+              </td>
+              <td>
+
+                <h4 class="font-26 whislist-heading">Herbodaya Aloe Vera Gel</h4>
+                <p class="f0nt-18"><img src="./asset/images/yellowstar.png" alt="yellowstar"><img
+                    src="./asset/images/yellowstar.png" alt="yellowstar"><img src="./asset/images/yellowstar.png"
+                    alt="yellowstar"><img src="./asset/images/yellowstar.png" alt="yellowstar"><img
+                    src="./asset/images/whitestar.png" alt=""> 4.0 Ratings</p>
+
+              </td>
+              <td class="font-18">MRP: ₹240.00</td>
+              <td class="font-18  stock">5 in Stock</td>
+              <td>
+                <p class="font-16">Product added on Jun 24, 2022</p>
+                <p><a class="btn font-18" disabled>Add to Cart</a></p>
+              </td>
+              <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="30" viewBox="0 0 24 30" fill="none">
+                  <path
+                    d="M1.71484 26.6667C1.71484 28.5085 3.24911 30.0001 5.14345 30.0001H18.8578C20.7521 30.0001 22.2863 28.5085 22.2863 26.6667V6.66675H1.71484V26.6667Z"
+                    fill="#676F6B" />
+                  <path d="M18 1.66664L16.2857 0H7.7143L5.99996 1.66664H0V5H24V1.66664H18Z" fill="#676F6B" />
+                </svg></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+
+  </section>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="footer-address">
+              <img class="footer-logo" src="./asset/images/herbodaya-logo.png" alt="herbodaya">
+              <p class="skm font-24">SKM SIDDHA AND AYURVEDA
+                COMPANY(INDIA)Pvt.Ltd,</p>
+              <p class="font-20">Saminathapuram (PO),</p>
+              <p class="font-20">Modakkurichi, Erode</p>
+              <p class="font-20">Tamil Nadu-638104</p>
+            </div>
+          </div>
+          <div class="quick-links col-xl-3 col-lg-3 col-md-6 col-sm-6 ">
+            <ul>
+              <p class="footer-headings font-22">Quick Links:</p>
+              <li><a href="#" class="font-18">My Account</a></li>
+              <li><a href="#" class="font-18">My Products</a></li>
+              <li><a href="./herbodaya-blogs-v2.html" class="font-18">Blog</a></li>
+              <li><a href="#" class="font-18">Terms and Conditions</a></li>
+              <li><a href="#" class="font-18">Privacy Policy</a></li>
+              <li><a href="#" class="font-18">Refund Policy</a></li>
+            </ul>
+          </div>
+          <div class="recent-posts col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            <ul>
+              <p class="footer-headings font-22">Recent Posts:</p>
+              <li><a href="#" class="font-18">Rose Water for Skin</a> </li>
+              <li><a href="#" class="font-18">Triphala Uses</a></li>
+              <li><a href="#" class="font-18">Neem Oil User For Hair</a> </li>
+              <li><a href="#" class="font-18">Benefits Of Turmeric For Skin</a></li>
+              <li><a href="#" class="font-18">Benefits of Aloe Vera</a></li>
+            </ul>
+          </div>
+
+
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="footer-contact">
+              <p class="footer-headings font-22">Contact Us:</p>
+
+              <div class="footer-link-content">
+                <p class="skm font-18">Customer Support :</p>
+                <p class="font-18"> +91 9626533378 | 0424 – 2500590</p>
+              </div>
+
+              <div class="footer-link-content">
+                <p class="skm font-18">Sales & Marketing</p>
+                <p class="font-18"> +91 9962713555 | +91 9994910539</p>
+              </div>
+
+              <div class="footer-link-content">
+                <p class="skm font-18">E-mail:</p>
+                <p class="font-18"> helpdesk@herbodaya.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="copyright-content">
+          <div>
+            <p class="font-16">Copyright © 2022 Herbodaya. All Rights Reserved</p>
+          </div>
+          <div>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- popup -->
+
+  <div class="modal fade eaque" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content settting-icon">
+       
+          <div class="modal-inner">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+        <div class="modal-body">
+            <div class="info-input">
+                <div class="personal-name info-input">
+                    <label class="font-20" for="name">Name*</label>
+                    <input type="text" class="font-18"id="name" placeholder="John William"/>
+                </div>
+                <div class="personal-last info-input">
+                    <label class="font-20" for="last-name">Email Id*</label>
+                    <input type="text" class="font-18"id="last-name" placeholder="Example@gmail.com"/>
+                </div>
+                <div class=" info-input">
+                    <label class="font-20" for="ph-number">Mobile Number*</label>
+                    <input type="text" class="font-18"id="ph-number" placeholder="9090909090"/>
+                </div>
+                <div class="personal-last info-input">
+                    <label class="font-20" for="skin">Category*</label>
+                    <select name="skin" id="skin">
+                        <option value="">Skin</option>
+                        <option value="">Skin</option>
+                        <option value="">Skin</option>
+                        <option value="">Skin</option>
+                    </select>
+                </div>
+                <div class="personal-last info-input">
+                    <label class="font-20" for="lname">Description</label>
+                    <textarea  class="font-18"id="lname" placeholder="Type Here..." name=""  cols="30" rows="10"></textarea>
+                </div>
+               </div>
+               <div class="signup-button">
+                <a type="button" class="btn font-20"data-bs-dismiss="modal">Submit</a>
+            </div>
+        </div>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="profile-background show-profile-back"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./js/custom.js"></script>
+  <script src="./asset/bootstrap/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,664 @@
+.herbodaya .font-16 {
+    font-size: 16px;
+    line-height: 20px;
+}
+.herbodaya .font-12 {
+    font-size: 12px;
+    line-height: 14px;
+}
+.herbodaya .font-14 {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.herbodaya .font-18 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.herbodaya .font-20 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.herbodaya .font-22 {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.herbodaya .font-24 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.herbodaya .font-26 {
+    font-size: 26px;
+    line-height: 26px;
+}
+
+.herbodaya .font-28 {
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.herbodaya .font-30 {
+    font-size: 30px;
+    line-height: 48px;
+}
+
+.herbodaya .font-32 {
+    font-size: 32px;
+    line-height: 38px;
+}
+.herbodaya .font-34 {
+    font-size: 34px;
+    line-height: 38px;
+}
+
+.herbodaya .font-36 {
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.herbodaya .font-42 {
+    font-size: 42px;
+    line-height: 48px;
+}
+
+.herbodaya .font-48 {
+    font-size: 48px;
+    line-height: 52px;
+}
+
+.herbodaya .font-56 {
+    font-size: 40px;
+    line-height: 50px;
+}
+.herbodaya .font-60 {
+    font-size: 60px;
+    line-height: 70px;
+}
+.herbodaya .font-72 {
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.herbodaya .font-94 {
+    font-size: 94px;
+    line-height: 100px;
+}
+.herbodaya .font-104 {
+    font-size: 104px;
+    line-height: 100px;
+}
+
+.herbodaya .font-64 {
+    font-size: 64px;
+    line-height: 64px;
+}
+
+
+@media only screen and (max-width:1700px) {
+    .herbodaya .font-72 {
+        font-size: 65px;
+        line-height: 72px;
+    }
+}
+
+@media only screen and (max-width:1599px) {
+
+    .herbodaya .font-16 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .herbodaya .font-12 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .herbodaya .font-18 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .herbodaya .font-20 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .herbodaya .font-22 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .herbodaya .font-24 {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .herbodaya .font-26 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .herbodaya .font-28 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .herbodaya .font-30 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .herbodaya .font-32 {
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+    .herbodaya .font-34 {
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+    .herbodaya .font-36 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .herbodaya .font-42 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .herbodaya .font-48 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    .herbodaya .font-56 {
+        font-size: 34px;
+        line-height: 45px;
+    }
+    .herbodaya .font-60 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .herbodaya .font-72 {
+        font-size: 57px;
+        line-height: 72px;
+    }
+
+    .herbodaya .font-94 {
+        font-size: 94px;
+        line-height: 100px;
+    }
+    .herbodaya .font-104 {
+        font-size: 94px;
+        line-height: 100px;
+    }
+    .herbodaya .font-64 {
+        font-size: 64px;
+        line-height: 64px;
+    }
+
+}
+@media only screen and (max-width:1400px) {
+    .herbodaya .font-72 {
+        font-size: 50px;
+        line-height: 72px;
+    }
+}
+@media only screen and (min-width:1600px) and (max-width:1700px) {
+    .herbodaya .font-42 {
+        font-size: 34px;
+        line-height: 48px;
+    }
+}
+@media only screen and (max-width:1599px) {
+
+    .herbodaya .font-42 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+}
+@media only screen and (max-width:1200px) {
+    .herbodaya .font-16 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .herbodaya .font-12 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .herbodaya .font-14 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .herbodaya .font-18 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .herbodaya .font-20 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .herbodaya .font-22 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .herbodaya .font-24 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .herbodaya .font-26 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .herbodaya .font-28 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .herbodaya .font-30 {
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    .herbodaya .font-32 {
+        font-size: 22px;
+        line-height: 38px;
+    }
+
+    .herbodaya .font-34 {
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+    .herbodaya .font-36 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .herbodaya .font-42 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .herbodaya .font-48 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    .herbodaya .font-56 {
+        font-size: 31px;
+        line-height: 40px;
+    }
+    .herbodaya .font-60 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .herbodaya .font-72 {
+        font-size: 43px;
+        line-height: 72px;
+    }
+
+    .herbodaya .font-94 {
+        font-size: 84px;
+        line-height: 92px;
+    }
+    .herbodaya .font-104 {
+        font-size: 84px;
+        line-height: 90px;
+    }
+
+    .herbodaya .font-64 {
+        font-size: 58px;
+        line-height: 64px;
+    }
+
+}
+
+@media only screen and (max-width:1024px) {
+    .herbodaya .font-72 {
+        font-size: 45px;
+        line-height: 54px;
+    }
+}
+@media only screen and (max-width:991px) {
+
+.herbodaya .font-42 {
+    font-size: 40px;
+    line-height: 60px;
+}
+.herbodaya .font-24 {
+    font-size: 24px;
+    line-height: 28px;
+}
+}
+@media only screen and (max-width:1024px) {
+    .herbodaya .font-72 {
+        font-size: 33px;
+        line-height: 54px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+
+    .herbodaya .font-16 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .herbodaya .font-12 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .herbodaya .font-18 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .herbodaya .font-20 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .herbodaya .font-22 {
+        font-size: 17px;
+        line-height: 32px;
+    }
+
+    .herbodaya .font-24 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .herbodaya .font-26 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .herbodaya .font-28 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .herbodaya .font-30 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .herbodaya .font-32 {
+        font-size: 21px;
+        line-height: 34px;
+    }
+
+    .herbodaya .font-34 {
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+    .herbodaya .font-36 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .herbodaya .font-42 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .herbodaya .font-48 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    .herbodaya .font-56 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+ 
+    .herbodaya .font-72 {
+        font-size: 37px;
+        line-height: 72px;
+    }
+
+    .herbodaya .font-94 {
+        font-size: 74px;
+        line-height: 84px;
+    }
+    .herbodaya .font-104 {
+        font-size: 77px;
+        line-height: 80px;
+    }
+    .herbodaya .font-64 {
+        font-size: 52px;
+        line-height: 60px;
+    }
+
+}
+
+@media only screen and (max-width:567px) {
+
+    .herbodaya .font-16 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .herbodaya .font-12 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .herbodaya .font-18 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .herbodaya .font-20 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .herbodaya .font-22 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .herbodaya .font-24 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .herbodaya .font-26 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .herbodaya .font-28 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .herbodaya .font-30 {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .herbodaya .font-32 {
+        font-size: 24px;
+        line-height: 17px;
+    }
+
+    .herbodaya .font-34 {
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+    .herbodaya .font-36 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .herbodaya .font-42 {
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    .herbodaya .font-48 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    .herbodaya .font-56 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .herbodaya .font-60 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .herbodaya .font-72 {
+        font-size: 35px;
+        line-height: 44px;
+    }
+
+    .herbodaya .font-94 {
+        font-size: 64px;
+        line-height: 84px;
+    }
+    .herbodaya .font-104 {
+        font-size: 64px;
+        line-height: 80px;
+    }
+    .herbodaya .font-64 {
+        font-size: 44px;
+        line-height: 52px;
+    }
+
+
+}
+@media only screen and (max-width:479px) {
+    .herbodaya .font-42 {
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .herbodaya .font-24 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+}
+@media only screen and (max-width:424px) {
+
+    .herbodaya .font-16 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .herbodaya .font-18 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .herbodaya .font-20 {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .herbodaya .font-22 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .herbodaya .font-24 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .herbodaya .font-26 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .herbodaya .font-28 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .herbodaya .font-30 {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .herbodaya .font-32 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .herbodaya .font-34 {
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+    .herbodaya .font-36 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .herbodaya .font-42 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .herbodaya .font-48 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    .herbodaya .font-56 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+    .herbodaya .font-72 {
+        font-size: 33px;
+        line-height: 48px;
+    }
+
+    .herbodaya .font-94 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .herbodaya .font-104 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .herbodaya .font-64 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+}
+
+
+@media only screen and (max-width: 374px){
+.herbodaya .font-42 {
+    font-size: 14px;
+    line-height: 20px;
+}
+.herbodaya .font-24 {
+    font-size: 12px;
+    line-height: 20px;
+}
+}
+@media only screen and (max-width: 338px){
+.herbodaya .font-42 {
+    font-size: 13px;
+    line-height: 20px;
+}
+}

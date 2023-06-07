@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Herbodaya</title>
+</head>
+<body class="herbodaya">
+
+
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade filter-product" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <line y1="-0.5" x2="16.1434" y2="-0.5" transform="matrix(-0.668986 0.743275 -0.668986 -0.743275 10.8008 0)" stroke="#3F5149"/>
+      <line y1="-0.5" x2="16.1434" y2="-0.5" transform="matrix(-0.668986 -0.743275 0.668986 -0.743275 12 11.9998)" stroke="#3F5149"/>
+      </svg></button>
+    <div class="modal-content">
+
+      
+        <div class="filter-product-header">
+          <p class="font-22">Filter by</p>
+          <p class="font-22">Reset</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="lable-checkbox"><label class="con font-2">Most Popular
+              <input type="checkbox" checked="checked">
+              <span class="checkmark"></span></label></div>
+            
+          </div>
+          <div class="col-lg-6">
+            <div class="lable-checkbox"><label class="con font-2">Must Try
+              <input type="checkbox" checked="checked">
+              <span class="checkmark"></span></label></div>
+            
+          </div>
+          <div class="col-lg-6">
+            <div class="lable-checkbox"><label class="con font-2">New Products
+              <input type="checkbox" checked="checked">
+              <span class="checkmark"></span></label></div>
+            
+          </div>
+          <div class="col-lg-6">
+            <div class="lable-checkbox"><label class="con font-2">Trending
+              <input type="checkbox" checked="checked">
+              <span class="checkmark"></span></label></div>
+            
+          </div>
+          <div class="col-lg-12">
+            <div class="lable-checkbox"><label class="con font-2">Offers
+              <input type="checkbox" checked="checked">
+              <span class="checkmark"></span></label></div>
+            
+          </div>
+          <div class="filter-offers">
+            <p class="font-18 active">All</p>
+            <p  class="font-18">10 - 20%</p>
+            <p  class="font-18">20 - 30%</p>
+          </div>
+          <div class="col-lg-12">
+            <div class="lable-checkbox"><label class="con font-2">Price
+              <input type="checkbox" checked="checked">
+              <span class="checkmark"></span></label></div>
+              <div class="filter-price">
+                <p  class="font-18 active">High - Low</p>
+                <p  class="font-18">Low - High</p>
+              </div>
+            
+          </div>
+          <div class="col-lg-12 ">
+        <button type="button" class="btn btn-secondary   apply-filters" data-bs-dismiss="modal">Apply Filters</button>
+
+          </div>
+        </div>
+      
+    </div>
+  </div>
+</div>
+    
+
+
+    <script src="./asset/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   
+   <script src="./js/custom.js"></script>
+   
+   
+
+</body>
+</html>
